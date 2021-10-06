@@ -38,23 +38,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=2.5, user-scalable=yes">
 
 	<!-- Hojas de estilo -->
-
 	<link rel="stylesheet" href="/templates/catedras_2/css/stylesheet.css" type="text/css"  media="all"/>
-
 	<link rel="stylesheet" href="/templates/catedras_2/css/bootstrap.min.css" type="text/css"  media="all"/>
-
 	<link rel="stylesheet" href="/templates/catedras_2/css/reset.css" type="text/css" />
-
 	<link rel="stylesheet" href="/templates/catedras_2/css/unal.css" type="text/css"  media="all" />
-
 	<link rel="stylesheet" href="/templates/catedras_2/css/base.css" type="text/css"  media="all" />
-
 	<link rel="stylesheet" href="/templates/catedras_2/css/tablet.css" type="text/css"  media="only screen and (min-width: 992px) and (max-width: 1199px)"/>
-
 	<link rel="stylesheet" href="/templates/catedras_2/css/small.css" type="text/css"  media="only screen and (max-width: 991px)"/>
-
 	<link rel="stylesheet" href="/templates/catedras_2/css/mainpage.css" type="text/css"  media="all"/>
-
 	<link rel="stylesheet" href="/templates/catedras_2/css/iziModal.min.css" type="text/css"  media="all"/>
 
 
