@@ -20,7 +20,6 @@
 	});
 	</script>
 
-
 	<meta charset="utf-8">
 
 	<!-- <link rel="icon" href="/favicon.ico" type="image/x-icon; charset=binary"> -->
@@ -53,121 +52,67 @@
 </head>
 
 <body>
-
 	<script type="text/javascript">
 	$( document ).ready(function() {
 		console.log("Entro en ready");
 		//$("#modal_saludo_diracad").iziModal();
 		//$("#modal_saludo_diracad").iziModal('open');
-
 	});
 </script>
 
-
 <header id="unalTop">
-
 	<div class="logo">
-
 		<a href="http://unal.edu.co">
-
 			<img alt="Escudo de la Universidad Nacional de Colombia" src="/templates/catedras_2/images/escudoUnal.png" width="189" height="70" title="Escudo de la Universidad Nacional de Colombia"/>
-
 		</a>
-
 		<div class="diag">
-
 		</div>
-
 	</div>
-
-	<div class="seal">
-
+	<div clas="seal">
 		<img alt="Escudo de la República de Colombia" src="/templates/catedras_2/images/sealColombia.png" width="66" height="66" title="Escudo de la República de Colombia"/>
-
 	</div>
-
 	<div class="firstMenu">
-
 		<div class="btn-group tx-srlanguagemenu">
-
 			<div class="btn btn-default dropdown-toggle" data-toggle="dropdown"> ES <span class="caret"></span>		</div>
-
 			<ul class="dropdown-menu" role="menu"></ul>
-
 		</div>
-
 		<ul class="socialLinks">
-
 			<li><a href="https://twitter.com/bogdiracad" target="_blank" class="twitter" title="Síguenos en Twitter"></a></li>
-
 			<li><a href="https://www.facebook.com/direccionacademica.sedebogota" target="_blank" class="facebook" title="Síguenos en Facebook"></a></li>
-
 		</ul>
-
 		<div class="navbar-default">
-
 			<div class="navbar-header">
-
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-
 					<span class="icon-bar"></span>
-
 					<span class="icon-bar"></span>
-
 					<span class="icon-bar"></span>
-
 				</button>
-
 			</div>
-
 			<nav class="collapse navbar-collapse">
-
 				<ul class="nav navbar-nav">
-
 					<li class="item_Aspirantes"><a href="http://www.admisiones.unal.edu.co" target="_top">Aspirantes</a></li>
-
 					<li class="item_Estudiantes"><a href="http://estudiantes.unal.edu.co" target="_top">Estudiantes</a></li>
-
 					<li class="item_Egresados"><a href="http://egresados.unal.edu.co" target="_top">Egresados</a></li>
-
 					<li class="item_Docentes"><a href="http://docentes.unal.edu.co" target="_top">Docentes</a></li>
-
 					<li class="item_Administrativos"><a href="http://administrativos.unal.edu.co" target="_top">Administrativos</a></li>
-
 				</ul>
-
 			</nav>
-
 		</div>
-
 	</div>
-
 	<div class="navigation">
-
 		<div class="site-url">
-
 			<div class="icon"></div>
-
 			<a class="home-link" href="http://www.catedras-bogota.unal.edu.co/index.php/" target="top">catedras-bogota.unal.edu.co</a>
-
 		</div>
-
 		<div class="navbar-">
-
 			<div class="btn-group">
 				<div class="btn btn-default dropdown-toggle">
 					<a style="color:#FFF; padding-right: 16px;" href="http://diracad.bogota.unal.edu.co/">Dirección Académica</a>
 				</div>
 			</div>
-
-
-
 			<div class="btn-group">
-
 				<div class="btn btn-default dropdown-toggle" data-toggle="dropdown">Cátedras de Sede<span class="caret"></span>
-
 				</div>
-
 				<ul class="dropdown-menu">
 					<!--<li><a href="http://diracad.bogota.unal.edu.co/funciones" target="_top">Funciones</a></li> -->
 					<li><a href="http://www.catedras-bogota.unal.edu.co/index.php/catedra-manuel-ancizar" target="_self">Cátedra Manuel Ancízar</a></li>
@@ -178,169 +123,89 @@
 					<li><a href="http://www.catedras-bogota.unal.edu.co/index.php/catedra-bogota-musical" target="_self">Cátedra Bogotá Musical Internacional</a></li>
 					<li><a href="http://www.catedras-bogota.unal.edu.co/index.php/catedra-gabriel-garcia-marquez" target="_self">Cátedra Gabriel García Márquez</a></li>
 					<li><a href="http://www.catedras-bogota.unal.edu.co/index.php/catedra-sesquicentenario" target="_self">Cátedra Sesquicentenario 150 años Universidad Nacional</a></li>
-
 				</ul>
-
-
 			</div>
-
 			<div class="btn-group">
 				<div class="btn btn-default dropdown-toggle">
 					<a style="color:#FFF; padding-right: 16px;" href="http://www.catedras-bogota.unal.edu.co/index.php/catedras-nacionales"> Cátedras Nacionales</a>
 				</div>
 			</div>
-
-
-
 		</div>
-
 	</div>
-
 	<div class="buscador">
-
 		<gcse:searchbox-only resultsurl="http://unal.edu.co/resultados-de-la-busqueda/"></gcse:searchbox-only>
-
 	</div>
-
-
-
-
 </header>
 
 <div id="services">
-
 	<div class="indicator"> </div>
-
 	<ul>
-
 		<li><img src="/templates/catedras_2/images/icnServEmail.png" width="32" height="32" border="0" alt=""><a href="http://correo.unal.edu.co" target="_top">Correo institucional</a></li>
-
 		<li><img src="/templates/catedras_2/images/icnServSia.png" width="32" height="32" border="0" alt=""><a href="https://dninfoa.unal.edu.co/index.php" target="_top">Sistema de Información Académica</a></li>
-
 		<li><img src="/templates/catedras_2/images/icnServCall.png" width="32" height="32" border="0" alt=""><a href="http://www.bogota.unal.edu.co/convocatorias/" target="_top">Convocatorias estudiantiles</a></li>
-
 		<li><img src="/templates/catedras_2/images/icnServLibrary.png" width="32" height="32" border="0" alt=""><a href="http://bibliotecas.unal.edu.co/" target="_top">Bibliotecas</a></li>
-
 	</ul>
-
 </div>
-
-
 
 <!-- Inicio contenido de las páginas-->
 
 <div>
-
 	<div class="item-page" itemscope itemtype="https://schema.org/Article">
 		<meta itemprop="inLanguage" content="en-GB" />
-
-
-
-
-
-
-
 		<div itemprop="articleBody">
 			<link href="/templates/catedras_2/css/estilosDiracad_1.css" rel="stylesheet" media="screen">
 			<link href="/templates/catedras_2/css/modelos-de-negocio.css" rel="stylesheet" media="screen">
-
 			<br>
-
 			<div class="row">
-
 				<div class="col-md-3">
-
 					<div class="">
 						<center> <a> <img class="catedra-logo" src="/resources/catedra_nacional/logoNAL.png" alt="Dirección Acádemica" /> </a>
 						</center>
 					</div>
-
 					<div class="container">
-
 						<div class="left-menu">
-
 							<div class="btn-wid" id="btn_Bienvenida" onclick="mostrar_seccion('Bievenida')">
-
 								<p>Bienvenida</p>
-
 							</div>
-
 							<div class="btn-wid" id="btn_informacion_de_contacto" onclick="mostrar_seccion('informacion_de_contacto')">
-
 								<p>Información de contacto</p>
-
 							</div>
-
-
-							<div class="btn-wid" id="btn_informacion_general_de_la_catedra"                     onclick="mostrar_seccion('informacion_general_de_la_catedra')">
-
+							<div class="btn-wid" id="btn_informacion_general_de_la_catedra" onclick="mostrar_seccion('informacion_general_de_la_catedra')">
 								<p>Información general de la cátedra</p>
-
 							</div>
-
 							<div class="btn-wid" id="btn_programa" onclick="mostrar_seccion('programa')">
-
 								<p>Programa</p>
-
 							</div>
-
 							<div class="btn-wid" id="btn_sesiones" onclick="mostrar_seccion('sesiones')">
-
 								<p>Sesiones</p>
-
 							</div>
-
 							<div class="btn-wid" id="btn_trabajos_finales" onclick="mostrar_seccion('trabajos_finales')">
-
 								<p>Trabajos finales</p>
-
 							</div>
-
 							<div class="btn-wid" id="btn_memorias" onclick="mostrar_seccion('memorias')">
-
 								<p>Memorias</p>
-
 							</div>
-
 						</div> <!-- Fin left menú-->
-
 					</div> <!-- Fin container-->
-
 					<br>
-
 					<div class="container">
-
 						<div class="left-menu">
-
 							<div class="btn-wid " onclick="redireccionar('https://campus.virtual.unal.edu.co/')">
-
 								<p>Moodle</p>
-
 							</div>
-
 							<div class="btn-wid " onclick="redireccionar('http://unradio.unal.edu.co/')">
-
 								<p>Radio UNAL</p>
-
 							</div>
-
 							<div class="btn-wid youtube-tab"
 							onclick="redireccionar('https://youtube.com/playlist?list=PLplnv12nNH7Q093YxHGSNXuOLiiD4w5lj')">
-
 							<p>Canal de YouTube</p>
-
 						</div>
-
 					</div> <!-- Fin left menú-->
-
 				</div> <!-- Fin container-->
-
 			</div> <!-- Fin col-md-3  -->
 			<div class="col-md-8"> <!-- Contenido de la página -->
 				<center><img class="img-responsive" src="public/img/backgrounds/logo.png" alt=""><br> <span class="semestre_catedra">2021-2s</span>  </center>
 				<br>
-
-
 				<!-- inicio bienvenida  -->
 				<div class="contenedor_diracad div_menu" id="btn_bienvenida" style="display:none">
 					<center>
@@ -350,21 +215,15 @@
 							<br>
 						</h1>
 					</center>
-
 					<br>
 					<p>
 						<img src="./templetes/catedras_2/imag/posterNALneuro.png" alt="Poster" height="500" width="820">
 					</p>
 				</a>
 				<br>
-
 				<br>
-
-
 				<img src="./public/img/catedra/posterNALneuro.png" alt="Poster" height="500" width="820">
 				1
-
-
 				<br><br><br><br><br><br><br><br>
 			</div>
 
@@ -610,223 +469,106 @@
 
 
 							</div>
-
-							<!-- Fin contenido de las páginas-->
-
-
-
-
-
-
-
-							<footer>
-
-								<div class="row">
-
-									<div class="col-md-3 col-lg-3 col-sm-3 col-xs-6 gobiernoLinea">
-
-										<div class="navbar-">
-
-											<div class="btn-group">
-
-												<a href="http://www.legal.unal.edu.co" target="_top">Régimen Legal</a><br /><a href="http://secretaria.unal.edu.co/fileadmin/NormasRL/Normas_may_16_28.pdf">- Legal reciente</a>
-
-											</div>
-
-											<div class="btn-group">
-
-												<a href="http://www.unal.edu.co/dnp" target="_top">Talento humano</a>
-
-											</div>
-
-											<div class="btn-group">
-
-												<a href="http://www.unal.edu.co/contratacion/" target="_top">Contratación</a>
-
-											</div>
-
-											<div class="btn-group">
-
-												<a href="http://bogota.unal.edu.co/ofertas-empleo/" target="_top">Ofertas de empleo</a>
-
-											</div>
-
-											<div class="btn-group">
-
-												<a href="http://rendiciondecuentas.unal.edu.co/" target="_top">Rendición de cuentas</a>
-
-											</div>
-
-											<div class="btn-group">
-
-												<a href="http://docentes.unal.edu.co/concurso-profesoral/" target="_top">Concurso docente</a>
-
-											</div>
-
-											<div class="btn-group">
-
-												<a href="http://www.pagovirtual.unal.edu.co/" target="_top">Pago Virtual</a>
-
-											</div>
-
-											<div class="btn-group">
-
-												<a href="http://www.unal.edu.co/control_interno/index.html" target="_top">Control interno</a>
-
-											</div>
-
-											<div class="btn-group">
-
-												<a href="http://planeacion.bogota.unal.edu.co/calidad.html" target="_top">Calidad</a>
-
-											</div>
-
-											<div class="btn-group">
-
-												<a href="http://bogota.unal.edu.co/notificaciones/" target="_self">Avisos, edictos y notificaciones Sede</a>
-
-											</div>
-
-											<div class="btn-group">
-
-												<a href="http://unal.edu.co/buzon-de-notificaciones/" target="_self">Buzón de notificaciones</a>
-
-											</div>
-
-										</div>
-
-									</div>
-
-									<div class="col-md-3 col-lg-3 col-sm-3 col-xs-6 gobiernoLinea gobiernoLinea2">
-
-										<div class="navbar-">
-
-											<div class="btn-group">
-
-												<a href="http://correo.unal.edu.co" target="_top">Correo institucional</a>
-
-											</div>
-
-											<div class="btn-group">
-
-												<a href="http://unal.edu.co/mapa-del-sitio/" target="_self">Mapa del sitio</a>
-
-											</div>
-
-											<div class="btn-group">
-
-												<a href="http://redessociales.unal.edu.co" target="_top">Redes Sociales</a>
-
-											</div>
-
-											<div class="btn-group">
-
-												<a href="http://unal.edu.co/faq/" target="_self">FAQ</a>
-
-											</div>
-
-											<div class="btn-group">
-
-												<a href="http://quejasyreclamos.unal.edu.co/" target="_self">Quejas y reclamos</a>
-
-											</div>
-
-											<div class="btn-group">
-
-												<a href="http://unal.edu.co/atencion-en-linea/" target="_self">Atención en línea</a>
-
-											</div>
-
-											<div class="btn-group">
-
-												<a href="http://unal.edu.co/encuesta/" target="_self">Encuesta</a>
-
-											</div>
-
-											<div class="btn-group">
-
-												<a href="http://unal.edu.co/nc/contactenos/" target="_self">Contáctenos</a>
-
-											</div>
-
-											<div class="btn-group">
-
-												<a href="http://www.onp.unal.edu.co" target="_top">Estadísticas</a>
-
-											</div>
-
-											<div class="btn-group">
-
-												<a href="http://unal.edu.co/glosario/" target="_self">Glosario</a>
-
-											</div>
-
-										</div>
-
-									</div>
-
-									<div class="col-md-4 footer-info col-lg-4 col-sm-4 col-xs-12">
-
-										<div class="csc-frame csc-frame-indent">
-
-											<p class="bodytext">
-
-												<b>Contacto Sede Bogotá:<br/></b>Carrera 45 N° 26-85 - Edificio Uriel Gutiérrez - Of. 225<br/>Bogotá D.C.,&nbsp; Colombia<br/>(+57 1) 316 5000
-
-											</p>
-
-										</div>
-
-										<div class="csc-frame csc-frame-indent">
-
-											<p class="bodytext">
-
-												© Copyright 2018<br/>Algunos derechos reservados.<br/>
-
-												<a href="mailto:webmaster_bog@unal.edu.co" title="Comuníquese con el webmaster de la Universidad Nacional de Colombia" class="mail">webmaster_bog@unal.edu.co</a><br/>
-
-												<a href="http://unal.edu.co/acerca-de-este-sitio-web/" title="Acerca de la web de la Universidad Nacional de Colombia" target="_blank">Acerca de este sitio web</a>
-
-											</p>
-
-										</div>
-
-									</div>
-
-									<div class="col-md-2 col-lg-2 col-sm-2 col-xs-12 logos">
-
-										<a href="http://www.orgulloun.unal.edu.co"><img alt="Orgullo UN" src="/templates/catedras_2/images/log_orgullo.png" width="78" height="21" title="Orgullo UN"/></a>
-
-										<a href="http://agenciadenoticias.unal.edu.co" class="imgAgencia"><img alt="Agencia de Noticias" src="/templates/catedras_2/images/log_agenc.png" width="78" height="21" title="Agencia de Noticias"/></a>
-
-										<div class="clear">
-
-										</div>
-
-										<a href="https://www.sivirtual.gov.co/memoficha-entidad/-/entidad/T0356"><img alt="Programa gobierno en línea" src="http://unal.edu.co/fileadmin/templates/images/67x51xlog_gobiern.png.pagespeed.ic.6o92hXupAH.png" width="67" height="51" title="Programa gobierno en línea"/></a>
-
-										<a href="http://www.contaduria.gov.co/"><img alt="Contaduría general de la republica" src="/templates/catedras_2/images/log_contra.png" width="67" height="51" title="Contaduría general de la republica"/></a>
-
-									</div>
-
-								</div>
-
-							</footer>
-
-
-
-							<script src="/templates/catedras_2/js/unal.js" type="text/javascript"></script>
-							<script src="/templates/catedras_2/js/jquery_3_3.js" type="text/javascript"></script>
-							<script src="/templates/catedras_2/js/iziModal.min.js" type="text/javascript"></script>
-
-
-
-
-
-
-
-
-
-						</body>
-
-						</html>
+	<!-- Fin contenido de las páginas-->
+	<footer>
+		<div class="row">
+			<div class="col-md-3 col-lg-3 col-sm-3 col-xs-6 gobiernoLinea">
+				<div class="navbar-">
+					<div class="btn-group">
+						<a href="http://www.legal.unal.edu.co" target="_top">Régimen Legal</a><br /><a href="http://secretaria.unal.edu.co/fileadmin/NormasRL/Normas_may_16_28.pdf">- Legal reciente</a>
+					</div>
+					<div class="btn-group">
+						<a href="http://www.unal.edu.co/dnp" target="_top">Talento humano</a>
+					</div>
+					<div class="btn-group">
+						<a href="http://www.unal.edu.co/contratacion/" target="_top">Contratación</a>
+					</div>
+					<div class="btn-group">
+						<a href="http://bogota.unal.edu.co/ofertas-empleo/" target="_top">Ofertas de empleo</a>
+					</div>
+					<div class="btn-group">
+						<a href="http://rendiciondecuentas.unal.edu.co/" target="_top">Rendición de cuentas</a>
+					</div>
+					<div class="btn-group">
+						<a href="http://docentes.unal.edu.co/concurso-profesoral/" target="_top">Concurso docente</a>
+					</div>
+					<div class="btn-group">
+						<a href="http://www.pagovirtual.unal.edu.co/" target="_top">Pago Virtual</a>
+					</div>
+					<div class="btn-group">
+						<a href="http://www.unal.edu.co/control_interno/index.html" target="_top">Control interno</a>
+					</div>
+					<div class="btn-group">
+						<a href="http://planeacion.bogota.unal.edu.co/calidad.html" target="_top">Calidad</a>
+					</div>
+					<div class="btn-group">
+						<a href="http://bogota.unal.edu.co/notificaciones/" target="_self">Avisos, edictos y notificaciones Sede</a>
+					</div>
+					<div class="btn-group">
+						<a href="http://unal.edu.co/buzon-de-notificaciones/" target="_self">Buzón de notificaciones</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 col-lg-3 col-sm-3 col-xs-6 gobiernoLinea gobiernoLinea2">
+				<div class="navbar-">
+					<div class="btn-group">
+						<a href="http://correo.unal.edu.co" target="_top">Correo institucional</a>
+					</div>
+					<div class="btn-group">
+						<a href="http://unal.edu.co/mapa-del-sitio/" target="_self">Mapa del sitio</a>
+					</div>
+					<div class="btn-group">
+						<a href="http://redessociales.unal.edu.co" target="_top">Redes Sociales</a>
+					</div>
+					<div class="btn-group">
+						<a href="http://unal.edu.co/faq/" target="_self">FAQ</a>
+					</div>
+					<div class="btn-group">
+						<a href="http://quejasyreclamos.unal.edu.co/" target="_self">Quejas y reclamos</a>
+					</div>
+					<div class="btn-group">
+						<a href="http://unal.edu.co/atencion-en-linea/" target="_self">Atención en línea</a>
+					</div>
+					<div class="btn-group">
+						<a href="http://unal.edu.co/encuesta/" target="_self">Encuesta</a>
+					</div>
+					<div class="btn-group">
+						<a href="http://unal.edu.co/nc/contactenos/" target="_self">Contáctenos</a>
+					</div>
+					<div class="btn-group">
+						<a href="http://www.onp.unal.edu.co" target="_top">Estadísticas</a>
+					</div>
+					<div class="btn-group">
+						<a href="http://unal.edu.co/glosario/" target="_self">Glosario</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 footer-info col-lg-4 col-sm-4 col-xs-12">
+				<div class="csc-frame csc-frame-indent">
+					<p class="bodytext">
+						<b>Contacto Sede Bogotá:<br/></b>Carrera 45 N° 26-85 - Edificio Uriel Gutiérrez - Of. 225<br/>Bogotá D.C.,&nbsp; Colombia<br/>(+57 1) 316 5000
+					</p>
+				</div>
+				<div class="csc-frame csc-frame-indent">
+					<p class="bodytext">
+						© Copyright 2018<br/>Algunos derechos reservados.<br/>
+						<a href="mailto:webmaster_bog@unal.edu.co" title="Comuníquese con el webmaster de la Universidad Nacional de Colombia" class="mail">webmaster_bog@unal.edu.co</a><br/>
+						<a href="http://unal.edu.co/acerca-de-este-sitio-web/" title="Acerca de la web de la Universidad Nacional de Colombia" target="_blank">Acerca de este sitio web</a>
+					</p>
+				</div>
+			</div>
+			<div class="col-md-2 col-lg-2 col-sm-2 col-xs-12 logos">
+				<a href="http://www.orgulloun.unal.edu.co"><img alt="Orgullo UN" src="/templates/catedras_2/images/log_orgullo.png" width="78" height="21" title="Orgullo UN"/></a>
+				<a href="http://agenciadenoticias.unal.edu.co" class="imgAgencia"><img alt="Agencia de Noticias" src="/templates/catedras_2/images/log_agenc.png" width="78" height="21" title="Agencia de Noticias"/></a>
+				<div class="clear">
+				</div>
+				<a href="https://www.sivirtual.gov.co/memoficha-entidad/-/entidad/T0356"><img alt="Programa gobierno en línea" src="http://unal.edu.co/fileadmin/templates/images/67x51xlog_gobiern.png.pagespeed.ic.6o92hXupAH.png" width="67" height="51" title="Programa gobierno en línea"/></a>
+				<a href="http://www.contaduria.gov.co/"><img alt="Contaduría general de la republica" src="/templates/catedras_2/images/log_contra.png" width="67" height="51" title="Contaduría general de la republica"/></a>
+			</div>
+		</div>
+	</footer>
+	<script src="/templates/catedras_2/js/unal.js" type="text/javascript"></script>
+	<script src="/templates/catedras_2/js/jquery_3_3.js" type="text/javascript"></script>
+	<script src="/templates/catedras_2/js/iziModal.min.js" type="text/javascript"></script>
+</body>
+</html>
