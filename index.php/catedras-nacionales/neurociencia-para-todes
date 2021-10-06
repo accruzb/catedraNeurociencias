@@ -1,7 +1,11 @@
+
 <!DOCTYPE html>
+
 <html xml:lang="en-gb" lang="en-gb" >
+
 <head>
-	<base href="http://www.catedras-bogota.unal.edu.co/index.php/catedras-nacionales/neurociencia-para-todes" />
+
+<base href="http://www.catedras-bogota.unal.edu.co/index.php/catedras-nacionales/neurociencia-para-todes" />
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="author" content="Super User" />
 	<meta name="description" content="La Universidad Nacional de Colombia ofrece a la comunidad académica y a la ciudadanía en general cátedras cuyo objetivo es dar a conocer sus desarrollos académicos y científicos y someterlos a discusión pública, permitiendo el enriquecimiento del entorno y cumpliendo así con su misión de fomentar el acceso al conocimiento y su desarrollo." />
@@ -15,395 +19,579 @@
 	<script src="/media/system/js/mootools-core.js?8f893ab671f42b0dc66c99bf1e09659b" type="text/javascript"></script>
 	<script src="/media/system/js/core.js?8f893ab671f42b0dc66c99bf1e09659b" type="text/javascript"></script>
 	<script type="text/javascript">
-	jQuery(window).on('load',  function() {
-		new JCaption('img.caption');
-	});
+jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});
 	</script>
 
-	<meta charset="utf-8">
 
-	<!-- <link rel="icon" href="/favicon.ico" type="image/x-icon; charset=binary"> -->
+<meta charset="utf-8">
 
-	<!-- <link rel="icon" href="/favicon.ico" type="image/x-icon; charset=binary"> -->
-	<link rel="shortcut icon" href="/templates/catedras_2/images/favicon.ico" type="image/x-icon; charset=binary">
-	<link rel="icon" href="/templates/catedras_2/images/favicon.ico" type="image/x-icon; charset=binary">
+<!-- <link rel="icon" href="/favicon.ico" type="image/x-icon; charset=binary"> -->
 
-	<title>Cátedras de Sede</title>
+<!-- <link rel="icon" href="/favicon.ico" type="image/x-icon; charset=binary"> -->
+<link rel="shortcut icon" href="/templates/catedras_2/images/favicon.ico" type="image/x-icon; charset=binary">
+<link rel="icon" href="/templates/catedras_2/images/favicon.ico" type="image/x-icon; charset=binary">
 
-	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=2.5, user-scalable=yes">
+<title>Cátedras de Sede</title>
 
-	<!-- Hojas de estilo -->
-	<link rel="stylesheet" href="/templates/catedras_2/css/stylesheet.css" type="text/css"  media="all"/>
-	<link rel="stylesheet" href="/templates/catedras_2/css/bootstrap.min.css" type="text/css"  media="all"/>
-	<link rel="stylesheet" href="/templates/catedras_2/css/reset.css" type="text/css" />
-	<link rel="stylesheet" href="/templates/catedras_2/css/unal.css" type="text/css"  media="all" />
-	<link rel="stylesheet" href="/templates/catedras_2/css/base.css" type="text/css"  media="all" />
-	<link rel="stylesheet" href="/templates/catedras_2/css/tablet.css" type="text/css"  media="only screen and (min-width: 992px) and (max-width: 1199px)"/>
-	<link rel="stylesheet" href="/templates/catedras_2/css/small.css" type="text/css"  media="only screen and (max-width: 991px)"/>
-	<link rel="stylesheet" href="/templates/catedras_2/css/mainpage.css" type="text/css"  media="all"/>
-	<link rel="stylesheet" href="/templates/catedras_2/css/iziModal.min.css" type="text/css"  media="all"/>
-	<!-- Fin hojas de estilo -->
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=2.5, user-scalable=yes">
 
-	<!-- Librerias -->
-	<script src="/templates/catedras_2/js/jquery_un.js" type="text/javascript"></script>
-	<script src="/templates/catedras_2/js/jquery_3_3.js" type="text/javascript"></script>
-	<script src="/templates/catedras_2/js/iziModal.min.js" type="text/javascript"></script>
-	<!-- Fin librerias -->
+<!-- Hojas de estilo -->
+
+<link rel="stylesheet" href="/templates/catedras_2/css/stylesheet.css" type="text/css"  media="all"/>
+
+<link rel="stylesheet" href="/templates/catedras_2/css/bootstrap.min.css" type="text/css"  media="all"/>
+
+<link rel="stylesheet" href="/templates/catedras_2/css/reset.css" type="text/css" />
+
+<link rel="stylesheet" href="/templates/catedras_2/css/unal.css" type="text/css"  media="all" />
+
+<link rel="stylesheet" href="/templates/catedras_2/css/base.css" type="text/css"  media="all" />
+
+<link rel="stylesheet" href="/templates/catedras_2/css/tablet.css" type="text/css"  media="only screen and (min-width: 992px) and (max-width: 1199px)"/>
+
+<link rel="stylesheet" href="/templates/catedras_2/css/small.css" type="text/css"  media="only screen and (max-width: 991px)"/>
+
+<link rel="stylesheet" href="/templates/catedras_2/css/mainpage.css" type="text/css"  media="all"/>
+
+<link rel="stylesheet" href="/templates/catedras_2/css/iziModal.min.css" type="text/css"  media="all"/>
+
+
+
+<!-- Fin hojas de estilo -->
+
+
+
+<!-- Librerias -->
+
+
+<script src="/templates/catedras_2/js/jquery_un.js" type="text/javascript"></script>
+
+<script src="/templates/catedras_2/js/jquery_3_3.js" type="text/javascript"></script>
+
+<script src="/templates/catedras_2/js/iziModal.min.js" type="text/javascript"></script>
+
+<!-- Fin librerias -->
+
+
+
 </head>
 
 <body>
-	<script type="text/javascript">
-		$( document ).ready(function() {
-			console.log("Entro en ready");
-			//$("#modal_saludo_diracad").iziModal();
-			//$("#modal_saludo_diracad").iziModal('open');
-		});
-	</script>
 
-	<header id="unalTop">
-		<div class="logo">
-			<a href="http://unal.edu.co">
-				<img alt="Escudo de la Universidad Nacional de Colombia" src="/templates/catedras_2/images/escudoUnal.png" width="189" height="70" title="Escudo de la Universidad Nacional de Colombia"/>
-			</a>
-			<div class="diag">
-			</div>
-		</div>
-		<div clas="seal">
-			<img alt="Escudo de la República de Colombia" src="/templates/catedras_2/images/sealColombia.png" width="66" height="66" title="Escudo de la República de Colombia"/>
-		</div>
-		<div class="firstMenu">
-			<div class="btn-group tx-srlanguagemenu">
-				<div class="btn btn-default dropdown-toggle" data-toggle="dropdown"> ES <span class="caret"></span>		</div>
-				<ul class="dropdown-menu" role="menu"></ul>
-			</div>
-			<ul class="socialLinks">
-				<li><a href="https://twitter.com/bogdiracad" target="_blank" class="twitter" title="Síguenos en Twitter"></a></li>
-				<li><a href="https://www.facebook.com/direccionacademica.sedebogota" target="_blank" class="facebook" title="Síguenos en Facebook"></a></li>
-			</ul>
-			<div class="navbar-default">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-				</div>
-				<nav class="collapse navbar-collapse">
-					<ul class="nav navbar-nav">
-						<li class="item_Aspirantes"><a href="http://www.admisiones.unal.edu.co" target="_top">Aspirantes</a></li>
-						<li class="item_Estudiantes"><a href="http://estudiantes.unal.edu.co" target="_top">Estudiantes</a></li>
-						<li class="item_Egresados"><a href="http://egresados.unal.edu.co" target="_top">Egresados</a></li>
-						<li class="item_Docentes"><a href="http://docentes.unal.edu.co" target="_top">Docentes</a></li>
-						<li class="item_Administrativos"><a href="http://administrativos.unal.edu.co" target="_top">Administrativos</a></li>
-					</ul>
-				</nav>
-			</div>
-		</div>
-		<div class="navigation">
-			<div class="site-url">
-				<div class="icon"></div>
-				<a class="home-link" href="http://www.catedras-bogota.unal.edu.co/index.php/" target="top">catedras-bogota.unal.edu.co</a>
-			</div>
-			<div class="navbar-">
-				<div class="btn-group">
-					<div class="btn btn-default dropdown-toggle">
-						<a style="color:#FFF; padding-right: 16px;" href="http://diracad.bogota.unal.edu.co/">Dirección Académica</a>
-					</div>
-				</div>
-				<div class="btn-group">
-					<div class="btn btn-default dropdown-toggle" data-toggle="dropdown">Cátedras de Sede<span class="caret"></span>
-					</div>
-					<ul class="dropdown-menu">
-						<!--<li><a href="http://diracad.bogota.unal.edu.co/funciones" target="_top">Funciones</a></li> -->
-						<li><a href="http://www.catedras-bogota.unal.edu.co/index.php/catedra-manuel-ancizar" target="_self">Cátedra Manuel Ancízar</a></li>
-						<li><a href="http://www.catedras-bogota.unal.edu.co/index.php/catedra-jorge-eliecer-gaitan" target="_self">Cátedra Jorge Elíecer Gaitán</a></li>
-						<li><a href="http://www.catedras-bogota.unal.edu.co/index.php/catedra-jose-celestino-mutis" target="_self">Cátedra José Celestino Mutis</a></li>
-						<li><a href="http://www.catedras-bogota.unal.edu.co/index.php/catedra-marta-traba" target="_self">Cátedra Marta Traba</a></li>
-						<li><a href="http://www.catedras-bogota.unal.edu.co/index.php/catedra-huellas-que-inspiran" target="_self">Cátedra Huella que Inspiran</a></li>
-						<li><a href="http://www.catedras-bogota.unal.edu.co/index.php/catedra-bogota-musical" target="_self">Cátedra Bogotá Musical Internacional</a></li>
-						<li><a href="http://www.catedras-bogota.unal.edu.co/index.php/catedra-gabriel-garcia-marquez" target="_self">Cátedra Gabriel García Márquez</a></li>
-						<li><a href="http://www.catedras-bogota.unal.edu.co/index.php/catedra-sesquicentenario" target="_self">Cátedra Sesquicentenario 150 años Universidad Nacional</a></li>
-					</ul>
-				</div>
-				<div class="btn-group">
-					<div class="btn btn-default dropdown-toggle">
-						<a style="color:#FFF; padding-right: 16px;" href="http://www.catedras-bogota.unal.edu.co/index.php/catedras-nacionales"> Cátedras Nacionales</a>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="buscador">
-			<gcse:searchbox-only resultsurl="http://unal.edu.co/resultados-de-la-busqueda/"></gcse:searchbox-only>
-		</div>
-	</header>
+<script type="text/javascript">
+$( document ).ready(function() {
+	console.log("Entro en ready");
+   //$("#modal_saludo_diracad").iziModal();
+   //$("#modal_saludo_diracad").iziModal('open');
 
-	<div id="services">
-		<div class="indicator"> </div>
-		<ul>
-			<li><img src="/templates/catedras_2/images/icnServEmail.png" width="32" height="32" border="0" alt=""><a href="http://correo.unal.edu.co" target="_top">Correo institucional</a></li>
-			<li><img src="/templates/catedras_2/images/icnServSia.png" width="32" height="32" border="0" alt=""><a href="https://dninfoa.unal.edu.co/index.php" target="_top">Sistema de Información Académica</a></li>
-			<li><img src="/templates/catedras_2/images/icnServCall.png" width="32" height="32" border="0" alt=""><a href="http://www.bogota.unal.edu.co/convocatorias/" target="_top">Convocatorias estudiantiles</a></li>
-			<li><img src="/templates/catedras_2/images/icnServLibrary.png" width="32" height="32" border="0" alt=""><a href="http://bibliotecas.unal.edu.co/" target="_top">Bibliotecas</a></li>
-		</ul>
+});
+</script>
+
+
+<header id="unalTop">
+
+<div class="logo">
+
+	<a href="http://unal.edu.co">
+
+		<img alt="Escudo de la Universidad Nacional de Colombia" src="/templates/catedras_2/images/escudoUnal.png" width="189" height="70" title="Escudo de la Universidad Nacional de Colombia"/>
+
+	</a>
+
+	<div class="diag">
+
 	</div>
 
-	<!-- Inicio contenido de las páginas-->
+</div>
 
-	<div>
-		<div class="item-page" itemscope itemtype="https://schema.org/Article">
-			<meta itemprop="inLanguage" content="en-GB" />
-			<div itemprop="articleBody">
-				<link href="/templates/catedras_2/css/estilosDiracad_1.css" rel="stylesheet" media="screen">
-				<link href="/templates/catedras_2/css/modelos-de-negocio.css" rel="stylesheet" media="screen">
-				<br>
-				<div class="row">
-					<div class="col-md-3">
-						<div class="">
-							<center> <a> <img class="catedra-logo" src="/resources/catedra_nacional/logoNAL.png" alt="Dirección Acádemica" /> </a>
-							</center>
-						</div>
-						<div class="container">
-							<div class="left-menu">
-								<div class="btn-wid" id="btn_Bienvenida" onclick="mostrar_seccion('Bievenida')">
-									<p>Bienvenida</p>
-								</div>
-								<div class="btn-wid" id="btn_informacion_de_contacto" onclick="mostrar_seccion('informacion_de_contacto')">
-									<p>Información de contacto</p>
-								</div>
-								<div class="btn-wid" id="btn_informacion_general_de_la_catedra" onclick="mostrar_seccion('informacion_general_de_la_catedra')">
-									<p>Información general de la cátedra</p>
-								</div>
-								<div class="btn-wid" id="btn_programa" onclick="mostrar_seccion('programa')">
-									<p>Programa</p>
-								</div>
-								<div class="btn-wid" id="btn_sesiones" onclick="mostrar_seccion('sesiones')">
-									<p>Sesiones</p>
-								</div>
-								<div class="btn-wid" id="btn_trabajos_finales" onclick="mostrar_seccion('trabajos_finales')">
-									<p>Trabajos finales</p>
-								</div>
-								<div class="btn-wid" id="btn_memorias" onclick="mostrar_seccion('memorias')">
-									<p>Memorias</p>
-								</div>
-							</div> <!-- Fin left menú-->
-						</div> <!-- Fin container-->
-						<br>
-						<div class="container">
-							<div class="left-menu">
-								<div class="btn-wid " onclick="redireccionar('https://campus.virtual.unal.edu.co/')">
-									<p>Moodle</p>
-								</div>
-								<div class="btn-wid " onclick="redireccionar('http://unradio.unal.edu.co/')">
-									<p>Radio UNAL</p>
-								</div>
-								<div class="btn-wid youtube-tab"
-								onclick="redireccionar('https://youtube.com/playlist?list=PLplnv12nNH7Q093YxHGSNXuOLiiD4w5lj')">
-								<p>Canal de YouTube</p>
-							</div>
-						</div> <!-- Fin left menú-->
-					</div> <!-- Fin container-->
-				</div> <!-- Fin col-md-3  -->
-				<div class="col-md-8"> <!-- Contenido de la página -->
-					<img class="img-responsive" src="public/img/backgrounds/logo.png" alt=""><br> <span class="semestre_catedra">2021-2s</span>
-					<br>
-					<!-- inicio bienvenida  -->
-					<div class="contenedor_diracad div_menu" id="btn_bienvenida" style="display:none">
-							<h1>Bienvenidos y bienvenidas a la Cátedra:
-								<br>
-								Neurociencias para todes
-								<br>
-							</h1>
-						<p><img src="./templetes/catedras_2/imag/posterNALneuro.png" alt="Poster" height="500" width="820"></p>
-						<img src="./public/img/catedra/posterNALneuro.png" alt="Poster" height="500" width="820"> 1
-					</div>
-					---------------------------------------------
-					<img class="img-responsive img_poster" src="/templates/catedras_2/images/Ctedras2021-2S/posterNALneuro.png"/>
-				</div> <!-- Fin col-md-5-->
-				<div class="col-md-7">
-					<h2 class="titulos">2021-2S <br>Cátedra nacional - Neurociencias para todes</h2>
-					<p><strong>Fecha de inicio: </strong>jueves 07 de octubre de 2021</p>
-					<p><strong>Horario: </strong>jueves de 5:00 pm a 8:00 pm</p>
-					<p><strong>Sede anfitriona y docente coordinadora: </strong><br> Bogotá - Zulma Janeth Dueñas</p>
-					<p><strong>Sedes participantes y docentescoordinadores: </strong>
-						<br>Palmira - Magda Piedad Valdés Restrepo<br>Orinoquia - Zulma Janeth Dueñas<br>
-					</p>
-					<p><strong>Código SIA: </strong>Asignatura de libre elección</p>
-					<p>Bogotá: 1000124-B</p>
-					<p>Orinoquia: 1000124-O</p>
-					<p>Palmira: 1000124-P</p>
-					<p><strong>Créditos: </strong> 3</p>
-					<span id="cloak4fbbed5e42b710466ce651eb359fb572">This email address is being protected from spambots. You need JavaScript enabled to view it.</span>
-					<script type='text/javascript'>
-						document.getElementById('cloak4fbbed5e42b710466ce651eb359fb572').innerHTML = '';
-						var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
-						var path = 'hr' + 'ef' + '=';
-						var addy4fbbed5e42b710466ce651eb359fb572 = 'c&#97;t&#101;dr&#97;s_n&#97;l' + '&#64;';
-						addy4fbbed5e42b710466ce651eb359fb572 = addy4fbbed5e42b710466ce651eb359fb572 + '&#117;n&#97;l' + '&#46;' + '&#101;d&#117;' + '&#46;' + 'c&#111;';
-						var addy_text4fbbed5e42b710466ce651eb359fb572 = 'c&#97;t&#101;dr&#97;s_n&#97;l' + '&#64;' + '&#117;n&#97;l' + '&#46;' + '&#101;d&#117;' + '&#46;' + 'c&#111;';document.getElementById('cloak4fbbed5e42b710466ce651eb359fb572').innerHTML += '<a class="links-t1" ' + path + '\'' + prefix + ':' + addy4fbbed5e42b710466ce651eb359fb572 + '\'>'+addy_text4fbbed5e42b710466ce651eb359fb572+'<\/a>';
-					</script>
-					<!-- <p><strong> Oficina: </strong> Unidad Camilo Torres Bloque B2 - Oficina No. 24 <p> -->
-				</div> <!-- Fin col-md-7 -->
-			</div> <!-- Fin row-->
-			<div class="row parrafo">
-				<h3>Información general del curso</h3>
-				<p>
-					<!-- FALTA-->
-					<!-- FALTA-->
-					<!-- FALTA-->
-				</p>
+<div class="seal">
+
+	<img alt="Escudo de la República de Colombia" src="/templates/catedras_2/images/sealColombia.png" width="66" height="66" title="Escudo de la República de Colombia"/>
+
+</div>
+
+<div class="firstMenu">
+
+	<div class="btn-group tx-srlanguagemenu">
+
+		<div class="btn btn-default dropdown-toggle" data-toggle="dropdown"> ES <span class="caret"></span>		</div>
+
+		<ul class="dropdown-menu" role="menu"></ul>
+
+	</div>
+
+	<ul class="socialLinks">
+
+		<li><a href="https://twitter.com/bogdiracad" target="_blank" class="twitter" title="Síguenos en Twitter"></a></li>
+
+		<li><a href="https://www.facebook.com/direccionacademica.sedebogota" target="_blank" class="facebook" title="Síguenos en Facebook"></a></li>
+
+	</ul>
+
+	<div class="navbar-default">
+
+		<div class="navbar-header">
+
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+
+			<span class="icon-bar"></span>
+
+			<span class="icon-bar"></span>
+
+			<span class="icon-bar"></span>
+
+			</button>
+
+		</div>
+
+		<nav class="collapse navbar-collapse">
+
+		<ul class="nav navbar-nav">
+
+			<li class="item_Aspirantes"><a href="http://www.admisiones.unal.edu.co" target="_top">Aspirantes</a></li>
+
+			<li class="item_Estudiantes"><a href="http://estudiantes.unal.edu.co" target="_top">Estudiantes</a></li>
+
+			<li class="item_Egresados"><a href="http://egresados.unal.edu.co" target="_top">Egresados</a></li>
+
+			<li class="item_Docentes"><a href="http://docentes.unal.edu.co" target="_top">Docentes</a></li>
+
+			<li class="item_Administrativos"><a href="http://administrativos.unal.edu.co" target="_top">Administrativos</a></li>
+
+		</ul>
+
+		</nav>
+
+	</div>
+
+</div>
+
+<div class="navigation">
+
+	<div class="site-url">
+
+		<div class="icon"></div>
+
+    <a class="home-link" href="http://www.catedras-bogota.unal.edu.co/index.php/" target="top">catedras-bogota.unal.edu.co</a>
+
+	</div>
+
+    <div class="navbar-">
+
+		<div class="btn-group">
+			<div class="btn btn-default dropdown-toggle">
+				<a style="color:#FFF; padding-right: 16px;" href="http://diracad.bogota.unal.edu.co/">Dirección Académica</a>
 			</div>
-		</div> <!-- Fin 2021-I -->
-	</div> <!-- Fin informacion_general -->
-		<div class="div_menu" id="div_objetivos" style="display:none">
-			<div class="row parrafo">
-				<h2 class="titulos">2021-2S <br>Cátedra nacional - Neurociencia para todes<br></h2>
-				<h3>Objetivo del curso</h3>
-				<!-- FALTA-->
-				<!-- FALTA-->
-				<!-- FALTA-->
-				<h3>Objetivos de aprendizaje</h3>
-				<p>Al finalizar la Cátedra Nacional Neurociencias para todes, el estudiante estará en la capacidad de:</p><br>
-				<ul>
-					<li>
-						Relacionar los aportes hechos desde diferentes disciplinas y que han permitido comprender la relación entre cerebro y comportamiento.
-					</li>
-					<li>
-						Identificar que existen diferentes factores protectores y de riesgo: biológico, ambiental/epigenético, social, cultural, entre otros, que pueden 								 afectar la salud mental y física de las personas.
-					</li>
-					<li>
-						Distinguir las respuestas comportamentales y emocionales que se presentan en un estado de bienestar o malestar y la manera cómo a partir del 								    conocimiento neurofisiológico, se puede fortalecer la autorregulación.
-					</li>
-					Planear, diseñar y dirigir propuestas para mitigar el impacto de factores de riesgo que afectan la salud mental y física de las personas en su 									entorno cercano o comunidad.
-					<li>
-						Percatarse de la aplicación de los conceptos de las Neurociencias en las ctividades de la vida diaria.
-					</li>
-					<li>
-					</li>
-				</ul>
-				<h3>Metodología</h3>
-				<p>
-					<!-- FALTA-->
-					<!-- FALTA-->
-					<!-- FALTA-->
-				</p>
+		</div>
+
+
+
+        <div class="btn-group">
+
+            <div class="btn btn-default dropdown-toggle" data-toggle="dropdown">Cátedras de Sede<span class="caret"></span>
+
+            </div>
+
+            <ul class="dropdown-menu">
+				<!--<li><a href="http://diracad.bogota.unal.edu.co/funciones" target="_top">Funciones</a></li> -->
+				<li><a href="http://www.catedras-bogota.unal.edu.co/index.php/catedra-manuel-ancizar" target="_self">Cátedra Manuel Ancízar</a></li>
+				<li><a href="http://www.catedras-bogota.unal.edu.co/index.php/catedra-jorge-eliecer-gaitan" target="_self">Cátedra Jorge Elíecer Gaitán</a></li>
+				<li><a href="http://www.catedras-bogota.unal.edu.co/index.php/catedra-jose-celestino-mutis" target="_self">Cátedra José Celestino Mutis</a></li>
+				<li><a href="http://www.catedras-bogota.unal.edu.co/index.php/catedra-marta-traba" target="_self">Cátedra Marta Traba</a></li>
+				<li><a href="http://www.catedras-bogota.unal.edu.co/index.php/catedra-huellas-que-inspiran" target="_self">Cátedra Huella que Inspiran</a></li>
+				<li><a href="http://www.catedras-bogota.unal.edu.co/index.php/catedra-bogota-musical" target="_self">Cátedra Bogotá Musical Internacional</a></li>
+				<li><a href="http://www.catedras-bogota.unal.edu.co/index.php/catedra-gabriel-garcia-marquez" target="_self">Cátedra Gabriel García Márquez</a></li>
+				<li><a href="http://www.catedras-bogota.unal.edu.co/index.php/catedra-sesquicentenario" target="_self">Cátedra Sesquicentenario 150 años Universidad Nacional</a></li>
+
+            </ul>
+
+
+        </div>
+
+  		<div class="btn-group">
+			<div class="btn btn-default dropdown-toggle">
+				<a style="color:#FFF; padding-right: 16px;" href="http://www.catedras-bogota.unal.edu.co/index.php/catedras-nacionales"> Cátedras Nacionales</a>
 			</div>
-		</div> <!-- Fin objetivos -->
+		</div>
 
-		<div class="div_menu" id="div_programa" style="display:none">
-		<!--<object data="/resources/catedra_nacional/2021-1/negocios/programanegocios.pdf" type="application/pdf" style="width: 100%; height: 90vh;">
-			<embed src="/resources/catedra_nacional/2021-1/negocios/programanegocios.pdf" type="application/pdf" style="width: 100%; height: 100%;"/>
-		</object>-->
-		</div> <!-- Fin programa -->
 
-		<div class="div_menu" id="div_sesiones" style="display:none">
-			<h2 class="titulos">2021-2S <br>Cátedra nacional - Neurociencia para todes</h2>
-				<!--
-				<h4>Sesión 1: El problema de las economías en desarrollo</h4><br>
-				<p>La sesión recoge diferentes aportes para escuchar una aproximación de los diferentes motivos del problema de las economías en desarrollo y abodar posibles soluciones.</p><br>-->
 
-				<!-- VIDEO -->
-				<!--
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/jE3Sx6zcjms" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-				<br><br><br>
+    </div>
 
-				<h4>Sesión 2 - El problema de las economía en desarrollo (Parte 2) </h4> <br>-->
-				<!-- VIDEO -->
-				<!--
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/HGe73ZhFqI0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-				<br><br><br>
-				<
-				<h4>Sesión 3: Nuevo enfoque de emprendimiento empresarial </h4><br>
-				<p>La creación de empresa es una solución para el crecimiento económico del país, por ello la sesión busca abordar metodologías para la creación de empresas y su fortalecimiento.</p><br>
+</div>
 
-				<br><br><br>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/InUbNCMXUk0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-				<br><br><br>
+<div class="buscador">
 
-				<h4>Sesión 4: Colectivos de inversión empresarial  </h4><br>
-				<p>El modelo CIEM posibilita crear grupos de inversión entre emprendedores proponentes de cada modelo de negocio y potenciales inversores.</p><br>
+	<gcse:searchbox-only resultsurl="http://unal.edu.co/resultados-de-la-busqueda/"></gcse:searchbox-only>
 
-				<br><br><br>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/iaRIyj8X55E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-				<br><br><br>
+</div>
 
-				<h4>Sesión 5: Fuentes de iniciativas emprendedoras  </h4><br>
-				<p>La sesión aborda tematicas como la creación de nuevas empresas y cómo reorganizar las empresas ya existentes .</p><br>
 
-				<br><br><br>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/gJ4QqIWa0tg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-				<br><br><br>
 
-				<h4>Sesión 6: Fuentes de iniciativas emprendedoras (parte 2) </h4><br>
-				<p>La sesión aborda tematicas como la creación de nuevas empresas y cómo reorganizar las empresas ya existentes .</p><br>
 
-				<br><br><br>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/79FSyXWe8bE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-				<br><br><br>
+</header>
 
-				<h4>Sesión 7: ¿Cómo identificar una oportunidad de negocio? </h4><br>
-				<p> La sesión permite capacitar a los participantes para visualizar oportunidades de negocio en entornos cambiantes, competidos y difíciles.</p><br>
+  <div id="services">
 
-				<br><br><br>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/TArUeOC8cKo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-				<br><br><br>
+    <div class="indicator"> </div>
 
-				<h4>Sesión 8: Nivel de riesgo y ¿cuánto vale una idea de negocio?  </h4><br>
-				<p>La sesión busca comprender los riesgos de invertir, inversores proclives al riesgo y aversión al riesgo en la pagina web "productivos.org" .</p><br>
+    <ul>
 
-				<br><br><br>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/DSk2m18TXZs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-				<br><br><br>
+    <li><img src="/templates/catedras_2/images/icnServEmail.png" width="32" height="32" border="0" alt=""><a href="http://correo.unal.edu.co" target="_top">Correo institucional</a></li>
 
-				<h4>Sesión 9: Revisión grado de avance primer modelo de negocios, resumen del modelo de negocios y reglas del juego rueda de negocios. </h4><br>
-				<p>La sesión logra resolver dudas de los inscritos a la cátedra, preparandolos para la primera rueda de negocios.</p><br>
+	<li><img src="/templates/catedras_2/images/icnServSia.png" width="32" height="32" border="0" alt=""><a href="https://dninfoa.unal.edu.co/index.php" target="_top">Sistema de Información Académica</a></li>
 
-				<br><br><br>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/5ZaLcsaNOxw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-				<br><br><br>
+    <li><img src="/templates/catedras_2/images/icnServCall.png" width="32" height="32" border="0" alt=""><a href="http://www.bogota.unal.edu.co/convocatorias/" target="_top">Convocatorias estudiantiles</a></li>
 
-				<h4>Sesión 10: Primera rueda de negocios . </h4><br>
-				<p>La sesión busca impulsar a los inscritos en el curso a promocionar los modelos de negocio construidos a través del sistema Rueda de Negocios establecido en el programa, el cual busca la participación de potenciales inversores, quienes son invitados por los propios inscritos para conocer las propuestas emprendedoras.</p><br>
+	<li><img src="/templates/catedras_2/images/icnServLibrary.png" width="32" height="32" border="0" alt=""><a href="http://bibliotecas.unal.edu.co/" target="_top">Bibliotecas</a></li>
 
-				<p>Puede encontrar la grabación de la sesión <a href="https://drive.google.com/drive/folders/1s3mTjjg5vUIv6Ttt6ICnSu83FX-g8MLI?usp=sharing" target="_blank"> aquí</a></p>
+    </ul>
 
-				<h4>Sesión 11:Primera rueda de negocios (parte 2). </h4><br>
-				<p>La sesión continua con las propuestas de negocio establecidas por los estudiantes.</p><br>
+</div>
 
-				<br><br><br>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/sifHWJImPJA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-				<br><br><br>
 
-				<h4>Sesión 12:Primera rueda de negocios (parte 3). </h4><br>
-				<p>La sesión continua con las propuestas de negocio establecidas por los estudiantes.</p><br>
 
-				<p>Puede encontrar la grabación de la sesión <a href="https://drive.google.com/drive/folders/1s3mTjjg5vUIv6Ttt6ICnSu83FX-g8MLI?usp=sharing" target="_blank"> aquí</a></p>
+<!-- Inicio contenido de las páginas-->
 
-				<h4>Sesión 13:Primera rueda de negocios (parte 4). </h4><br>
-				<p>La sesión continua con las propuestas de negocio establecidas por los estudiantes.</p><br>
+<div>
 
-				<br><br><br>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/A188gy_3ANA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-				<br><br><br>
+<div class="item-page" itemscope itemtype="https://schema.org/Article">
+	<meta itemprop="inLanguage" content="en-GB" />
 
-				<h4>Sesión 14:¿En qué invertir?  </h4><br>
-				<p>La sesión aportar a los participantes una metodología para reconocer una idea o modelo de negocio a partir de la observación y análisis de las actividades económicas.</p><br>
 
-				<br><br><br>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/VXfuc-p5nGw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-				<br><br><br>
 
-				<h4>Sesión 15:Modelo de negocios atendiendo requerimientos del estado. </h4><br>
-				<p>La sesión tiene como objetivo establecer una idea de negocio que pueda atender algún tipo de necesidad estatal a nivel de gobierno central, regional o local. </p><br>
 
-				<br><br><br>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/mZDH_dckGM4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-				<br><br><br>   -->
 
-		</div> <!-- Fin sesiones -->
-		<div class="div_menu" id="div_equipo" style="display:none">
-			<!--<img src="/resources/catedra_nacional/2021-1/negocios/equipoorganizador.png" style="width: 500px; height: 600px;">-->
-		</div> <!-- Fin equipo -->
-	</div> <!-- Fin col-md-10 -->
+
+
+									<div itemprop="articleBody">
+		<link href="/templates/catedras_2/css/estilosDiracad_1.css" rel="stylesheet" media="screen">
+<link href="/templates/catedras_2/css/modelos-de-negocio.css" rel="stylesheet" media="screen">
+
+<br>
+
+<div class="row">
+
+    <div class="col-md-3">
+
+        <div class="">
+            <center> <a> <img class="catedra-logo" src="/resources/catedra_nacional/logoNAL.png" alt="Dirección Acádemica" /> </a>
+            </center>
+        </div>
+
+        <div class="container">
+
+            <div class="left-menu">
+
+                <div class="btn-wid" id="btn_informacion_general" onclick="mostrar_seccion('informacion_general')">
+
+                    <p>Información general del curso</p>
+
+                </div>
+
+                <div class="btn-wid" id="btn_objetivos" onclick="mostrar_seccion('objetivos')">
+
+                    <p>Objetivos de aprendizaje</p>
+
+                </div>
+
+
+                <div class="btn-wid" id="btn_programa" onclick="mostrar_seccion('programa')">
+
+                    <p>Programa</p>
+
+                </div>
+
+                <div class="btn-wid" id="btn_sesiones" onclick="mostrar_seccion('sesiones')">
+
+                    <p>Sesiones</p>
+
+                </div>
+
+                <div class="btn-wid" id="btn_equipo" onclick="mostrar_seccion('equipo')">
+
+                    <p>Equipo organizador</p>
+
+                </div>
+
+            </div> <!-- Fin left menú-->
+
+        </div> <!-- Fin container-->
+
+        <br>
+
+        <div class="container">
+
+            <div class="left-menu">
+
+                <div class="btn-wid " onclick="redireccionar('https://campus.virtual.unal.edu.co/')">
+
+                    <p>Moodle</p>
+
+                </div>
+
+                <div class="btn-wid " onclick="redireccionar('http://unradio.unal.edu.co/')">
+
+                    <p>Radio UNAL</p>
+
+                </div>
+
+                <div class="btn-wid youtube-tab"
+                    onclick="redireccionar('https://youtube.com/playlist?list=PLplnv12nNH7Q093YxHGSNXuOLiiD4w5lj')">
+
+                    <p>Canal de YouTube</p>
+
+                </div>
+
+            </div> <!-- Fin left menú-->
+
+        </div> <!-- Fin container-->
+
+    </div> <!-- Fin col-md-3  -->
+
+    <div class="col-md-8">
+        <!-- Contenido de la página -->
+
+
+        <!-- inicio convocatorias -->
+
+
+        <center>
+
+
+            <div class="contenedor_diracad " id="">
+
+
+                <br>
+
+                <div class="div_menu" id="div_informacion_general" style="display:none">
+
+                    <!-- 2021-I -->
+                    <div class="div_documentos" id="2021-I" style="display:block">
+                        <div class="row">
+                            <div class="col-md-5">
+
+                                <img class="img-responsive img_poster" src="/templates/catedras_2/images/Ctedras2021-2S/posterNALneuro.png" />
+
+                            </div> <!-- Fin col-md-5-->
+
+                            <div class="col-md-7">
+                                <h2 class="titulos">2021-2S <br>Cátedra nacional - Neurociencias para todes</h2> <br>
+                                <p><strong>Fecha de inicio: </strong>jueves 07 de octubre de 2021
+                                <p>
+                                <p><strong>Horario: </strong>jueves de 5:00 pm a 8:00 pm
+                                <p>
+                                <p><strong>Sede anfitriona y docente coordinadora: </strong><br> Bogotá - Zulma Janeth Dueñas
+                                <p>
+                                <br>
+                                <br>
+                                <p><strong>Sedes participantes y docentescoordinadores: </strong><br>Palmira - Magda Piedad Valdés Restrepo<br>Orinoquia - Zulma Janeth 										Dueñas<br>
+                                <br>
+                                <p><strong>Código SIA: </strong>Asignatura de libre elección
+                                <p>Bogotá: 1000124-B
+                                <p>Orinoquia: 1000124-O
+                                <p>Palmira: 1000124-P
+                                <p><strong>Créditos: </strong> 3
+                                <p>
+                                <p><span id="cloak4fbbed5e42b710466ce651eb359fb572">This email address is being protected from spambots. You need JavaScript enabled to view it.</span><script type='text/javascript'>
+				document.getElementById('cloak4fbbed5e42b710466ce651eb359fb572').innerHTML = '';
+				var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+				var path = 'hr' + 'ef' + '=';
+				var addy4fbbed5e42b710466ce651eb359fb572 = 'c&#97;t&#101;dr&#97;s_n&#97;l' + '&#64;';
+				addy4fbbed5e42b710466ce651eb359fb572 = addy4fbbed5e42b710466ce651eb359fb572 + '&#117;n&#97;l' + '&#46;' + '&#101;d&#117;' + '&#46;' + 'c&#111;';
+				var addy_text4fbbed5e42b710466ce651eb359fb572 = 'c&#97;t&#101;dr&#97;s_n&#97;l' + '&#64;' + '&#117;n&#97;l' + '&#46;' + '&#101;d&#117;' + '&#46;' + 'c&#111;';document.getElementById('cloak4fbbed5e42b710466ce651eb359fb572').innerHTML += '<a class="links-t1" ' + path + '\'' + prefix + ':' + addy4fbbed5e42b710466ce651eb359fb572 + '\'>'+addy_text4fbbed5e42b710466ce651eb359fb572+'<\/a>';
+		</script>
+                                <p>
+                                <p>
+                                    <!-- <p><strong> Oficina: </strong> Unidad Camilo Torres Bloque B2 - Oficina No. 24 <p> -->
+
+                            </div> <!-- Fin col-md-7 -->
+
+                        </div> <!-- Fin row-->
+                        <div class="row parrafo">
+                            <h3>Información general del curso</h3>
+                            <p>
+                              <!-- FALTA-->
+                              <!-- FALTA-->
+                              <!-- FALTA-->
+                            </p>
+                        </div>
+                    </div> <!-- Fin 2021-I -->
+
+                </div> <!-- Fin informacion_general -->
+
+                <div class="div_menu" id="div_objetivos" style="display:none">
+                    <div class="row parrafo">
+                        <h2 class="titulos">2021-2S <br>Cátedra nacional - Neurociencia para todes<br></h2>
+                        <h3>Objetivo del curso</h3>
+                          <!-- FALTA-->
+                          <!-- FALTA-->
+                          <!-- FALTA-->
+                        <h3>Objetivos de aprendizaje</h3>
+                        <p>Al finalizar la Cátedra Nacional Neurociencias para todes, el estudiante estará en la capacidad de:</p><br>
+                        <ul>
+                            <li>
+                                Relacionar los aportes hechos desde diferentes disciplinas y que han permitido comprender la relación entre cerebro y comportamiento.
+                            </li>
+                            <li>
+                                Identificar que existen diferentes factores protectores y de riesgo: biológico, ambiental/epigenético, social, cultural, entre otros, que pueden 								 afectar la salud mental y física de las personas.
+                            </li>
+                            <li>
+                                Distinguir las respuestas comportamentales y emocionales que se presentan en un estado de bienestar o malestar y la manera cómo a partir del 								    conocimiento neurofisiológico, se puede fortalecer la autorregulación.
+                            </li>
+                          		Planear, diseñar y dirigir propuestas para mitigar el impacto de factores de riesgo que afectan la salud mental y física de las personas en su 									entorno cercano o comunidad.
+                          	<li>
+                              	Percatarse de la aplicación de los conceptos de las Neurociencias en las ctividades de la vida diaria.
+                            </li>
+                          	<li>
+                            </li>
+                        </ul>
+                        <h3>Metodología</h3>
+                        <p>
+                          <!-- FALTA-->
+                          <!-- FALTA-->
+                          <!-- FALTA-->
+                        </p>
+                    </div>
+                </div> <!-- Fin objetivos -->
+
+                <div class="div_menu" id="div_programa" style="display:none">
+
+                  	<!--<object data="/resources/catedra_nacional/2021-1/negocios/programanegocios.pdf" type="application/pdf" style="width: 100%; height: 90vh;">
+                        <embed src="/resources/catedra_nacional/2021-1/negocios/programanegocios.pdf" type="application/pdf" style="width: 100%; height: 100%;"/>
+                    </object>-->
+                </div> <!-- Fin programa -->
+
+                <div class="div_menu" id="div_sesiones" style="display:none">
+                    <h2 class="titulos">2021-2S <br>
+                        Cátedra nacional - Neurociencia para todes</h2>
+                  <!--
+                  <h4>Sesión 1: El problema de las economías en desarrollo</h4><br>
+                    <p>La sesión recoge diferentes aportes para escuchar una aproximación de los diferentes motivos del problema de las economías en desarrollo y abodar posibles soluciones.</p><br>-->
+
+                    <br><br><br>
+
+                    <!-- VIDEO -->
+                  <!--
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/jE3Sx6zcjms" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                    <br><br><br>
+
+                    <h4>Sesión 2 - El problema de las economía en desarrollo (Parte 2) </h4> <br>-->
+                    <!-- VIDEO -->
+                  <!--
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/HGe73ZhFqI0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                    <br><br><br>
+					<
+                    <h4>Sesión 3: Nuevo enfoque de emprendimiento empresarial </h4><br>
+                    <p>La creación de empresa es una solución para el crecimiento económico del país, por ello la sesión busca abordar metodologías para la creación de empresas y su fortalecimiento.</p><br>
+
+                    <br><br><br>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/InUbNCMXUk0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                    <br><br><br>
+
+                    <h4>Sesión 4: Colectivos de inversión empresarial  </h4><br>
+                    <p>El modelo CIEM posibilita crear grupos de inversión entre emprendedores proponentes de cada modelo de negocio y potenciales inversores.</p><br>
+
+                    <br><br><br>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/iaRIyj8X55E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                    <br><br><br>
+
+                    <h4>Sesión 5: Fuentes de iniciativas emprendedoras  </h4><br>
+                    <p>La sesión aborda tematicas como la creación de nuevas empresas y cómo reorganizar las empresas ya existentes .</p><br>
+
+                    <br><br><br>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/gJ4QqIWa0tg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                    <br><br><br>
+
+                    <h4>Sesión 6: Fuentes de iniciativas emprendedoras (parte 2) </h4><br>
+                    <p>La sesión aborda tematicas como la creación de nuevas empresas y cómo reorganizar las empresas ya existentes .</p><br>
+
+                    <br><br><br>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/79FSyXWe8bE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                    <br><br><br>
+
+                    <h4>Sesión 7: ¿Cómo identificar una oportunidad de negocio? </h4><br>
+                    <p> La sesión permite capacitar a los participantes para visualizar oportunidades de negocio en entornos cambiantes, competidos y difíciles.</p><br>
+
+                    <br><br><br>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/TArUeOC8cKo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                    <br><br><br>
+
+                    <h4>Sesión 8: Nivel de riesgo y ¿cuánto vale una idea de negocio?  </h4><br>
+                    <p>La sesión busca comprender los riesgos de invertir, inversores proclives al riesgo y aversión al riesgo en la pagina web "productivos.org" .</p><br>
+
+                    <br><br><br>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/DSk2m18TXZs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                    <br><br><br>
+
+                    <h4>Sesión 9: Revisión grado de avance primer modelo de negocios, resumen del modelo de negocios y reglas del juego rueda de negocios. </h4><br>
+                    <p>La sesión logra resolver dudas de los inscritos a la cátedra, preparandolos para la primera rueda de negocios.</p><br>
+
+                    <br><br><br>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/5ZaLcsaNOxw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                    <br><br><br>
+
+                    <h4>Sesión 10: Primera rueda de negocios . </h4><br>
+                    <p>La sesión busca impulsar a los inscritos en el curso a promocionar los modelos de negocio construidos a través del sistema Rueda de Negocios establecido en el programa, el cual busca la participación de potenciales inversores, quienes son invitados por los propios inscritos para conocer las propuestas emprendedoras.</p><br>
+
+                    <p>Puede encontrar la grabación de la sesión <a href="https://drive.google.com/drive/folders/1s3mTjjg5vUIv6Ttt6ICnSu83FX-g8MLI?usp=sharing" target="_blank"> aquí</a></p>
+
+                    <h4>Sesión 11:Primera rueda de negocios (parte 2). </h4><br>
+                    <p>La sesión continua con las propuestas de negocio establecidas por los estudiantes.</p><br>
+
+                    <br><br><br>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/sifHWJImPJA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                    <br><br><br>
+
+                    <h4>Sesión 12:Primera rueda de negocios (parte 3). </h4><br>
+                    <p>La sesión continua con las propuestas de negocio establecidas por los estudiantes.</p><br>
+
+                    <p>Puede encontrar la grabación de la sesión <a href="https://drive.google.com/drive/folders/1s3mTjjg5vUIv6Ttt6ICnSu83FX-g8MLI?usp=sharing" target="_blank"> aquí</a></p>
+
+                    <h4>Sesión 13:Primera rueda de negocios (parte 4). </h4><br>
+                    <p>La sesión continua con las propuestas de negocio establecidas por los estudiantes.</p><br>
+
+                    <br><br><br>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/A188gy_3ANA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                    <br><br><br>
+
+                    <h4>Sesión 14:¿En qué invertir?  </h4><br>
+                    <p>La sesión aportar a los participantes una metodología para reconocer una idea o modelo de negocio a partir de la observación y análisis de las actividades económicas.</p><br>
+
+                    <br><br><br>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/VXfuc-p5nGw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                    <br><br><br>
+
+                    <h4>Sesión 15:Modelo de negocios atendiendo requerimientos del estado. </h4><br>
+                    <p>La sesión tiene como objetivo establecer una idea de negocio que pueda atender algún tipo de necesidad estatal a nivel de gobierno central, regional o local. </p><br>
+
+                    <br><br><br>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/mZDH_dckGM4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                    <br><br><br>   -->
+
+                </div> <!-- Fin sesiones -->
+                <div class="div_menu" id="div_equipo" style="display:none">
+
+                    <!--<img src="/resources/catedra_nacional/2021-1/negocios/equipoorganizador.png" style="width: 500px; height: 600px;">-->
+
+
+                </div> <!-- Fin equipo -->
+
+                 <br> <br> <br>
+
+            </div> <!-- Fin documentos_ei -->
+
+            <br><br><br>
+
+        </center>
+
+    </div>
+
+    <!-- Fin nuestro_proposito-->
+
+</div> <!-- Fin col-md-10 -->
 
 <div class="col-md-1"></div>
 
@@ -412,8 +600,20 @@
 <script src="/templates/catedras_2/js/catedras.js"></script>	</div>
 
 
+							</div>
+
+
+
+
+
+
+
+
+
+
 </div>
 
+<!-- Fin contenido de las páginas-->
 
 
 
@@ -421,109 +621,214 @@
 
 
 
+<footer>
 
+<div class="row">
 
-							</div>
-	<!-- Fin contenido de las páginas-->
-	<footer>
-		<div class="row">
-			<div class="col-md-3 col-lg-3 col-sm-3 col-xs-6 gobiernoLinea">
-				<div class="navbar-">
-					<div class="btn-group">
-						<a href="http://www.legal.unal.edu.co" target="_top">Régimen Legal</a><br /><a href="http://secretaria.unal.edu.co/fileadmin/NormasRL/Normas_may_16_28.pdf">- Legal reciente</a>
-					</div>
-					<div class="btn-group">
-						<a href="http://www.unal.edu.co/dnp" target="_top">Talento humano</a>
-					</div>
-					<div class="btn-group">
-						<a href="http://www.unal.edu.co/contratacion/" target="_top">Contratación</a>
-					</div>
-					<div class="btn-group">
-						<a href="http://bogota.unal.edu.co/ofertas-empleo/" target="_top">Ofertas de empleo</a>
-					</div>
-					<div class="btn-group">
-						<a href="http://rendiciondecuentas.unal.edu.co/" target="_top">Rendición de cuentas</a>
-					</div>
-					<div class="btn-group">
-						<a href="http://docentes.unal.edu.co/concurso-profesoral/" target="_top">Concurso docente</a>
-					</div>
-					<div class="btn-group">
-						<a href="http://www.pagovirtual.unal.edu.co/" target="_top">Pago Virtual</a>
-					</div>
-					<div class="btn-group">
-						<a href="http://www.unal.edu.co/control_interno/index.html" target="_top">Control interno</a>
-					</div>
-					<div class="btn-group">
-						<a href="http://planeacion.bogota.unal.edu.co/calidad.html" target="_top">Calidad</a>
-					</div>
-					<div class="btn-group">
-						<a href="http://bogota.unal.edu.co/notificaciones/" target="_self">Avisos, edictos y notificaciones Sede</a>
-					</div>
-					<div class="btn-group">
-						<a href="http://unal.edu.co/buzon-de-notificaciones/" target="_self">Buzón de notificaciones</a>
-					</div>
-				</div>
+	<div class="col-md-3 col-lg-3 col-sm-3 col-xs-6 gobiernoLinea">
+
+		<div class="navbar-">
+
+			<div class="btn-group">
+
+				<a href="http://www.legal.unal.edu.co" target="_top">Régimen Legal</a><br /><a href="http://secretaria.unal.edu.co/fileadmin/NormasRL/Normas_may_16_28.pdf">- Legal reciente</a>
+
 			</div>
-			<div class="col-md-3 col-lg-3 col-sm-3 col-xs-6 gobiernoLinea gobiernoLinea2">
-				<div class="navbar-">
-					<div class="btn-group">
-						<a href="http://correo.unal.edu.co" target="_top">Correo institucional</a>
-					</div>
-					<div class="btn-group">
-						<a href="http://unal.edu.co/mapa-del-sitio/" target="_self">Mapa del sitio</a>
-					</div>
-					<div class="btn-group">
-						<a href="http://redessociales.unal.edu.co" target="_top">Redes Sociales</a>
-					</div>
-					<div class="btn-group">
-						<a href="http://unal.edu.co/faq/" target="_self">FAQ</a>
-					</div>
-					<div class="btn-group">
-						<a href="http://quejasyreclamos.unal.edu.co/" target="_self">Quejas y reclamos</a>
-					</div>
-					<div class="btn-group">
-						<a href="http://unal.edu.co/atencion-en-linea/" target="_self">Atención en línea</a>
-					</div>
-					<div class="btn-group">
-						<a href="http://unal.edu.co/encuesta/" target="_self">Encuesta</a>
-					</div>
-					<div class="btn-group">
-						<a href="http://unal.edu.co/nc/contactenos/" target="_self">Contáctenos</a>
-					</div>
-					<div class="btn-group">
-						<a href="http://www.onp.unal.edu.co" target="_top">Estadísticas</a>
-					</div>
-					<div class="btn-group">
-						<a href="http://unal.edu.co/glosario/" target="_self">Glosario</a>
-					</div>
-				</div>
+
+			<div class="btn-group">
+
+				<a href="http://www.unal.edu.co/dnp" target="_top">Talento humano</a>
+
 			</div>
-			<div class="col-md-4 footer-info col-lg-4 col-sm-4 col-xs-12">
-				<div class="csc-frame csc-frame-indent">
-					<p class="bodytext">
-						<b>Contacto Sede Bogotá:<br/></b>Carrera 45 N° 26-85 - Edificio Uriel Gutiérrez - Of. 225<br/>Bogotá D.C.,&nbsp; Colombia<br/>(+57 1) 316 5000
-					</p>
-				</div>
-				<div class="csc-frame csc-frame-indent">
-					<p class="bodytext">
-						© Copyright 2018<br/>Algunos derechos reservados.<br/>
-						<a href="mailto:webmaster_bog@unal.edu.co" title="Comuníquese con el webmaster de la Universidad Nacional de Colombia" class="mail">webmaster_bog@unal.edu.co</a><br/>
-						<a href="http://unal.edu.co/acerca-de-este-sitio-web/" title="Acerca de la web de la Universidad Nacional de Colombia" target="_blank">Acerca de este sitio web</a>
-					</p>
-				</div>
+
+			<div class="btn-group">
+
+				<a href="http://www.unal.edu.co/contratacion/" target="_top">Contratación</a>
+
 			</div>
-			<div class="col-md-2 col-lg-2 col-sm-2 col-xs-12 logos">
-				<a href="http://www.orgulloun.unal.edu.co"><img alt="Orgullo UN" src="/templates/catedras_2/images/log_orgullo.png" width="78" height="21" title="Orgullo UN"/></a>
-				<a href="http://agenciadenoticias.unal.edu.co" class="imgAgencia"><img alt="Agencia de Noticias" src="/templates/catedras_2/images/log_agenc.png" width="78" height="21" title="Agencia de Noticias"/></a>
-				<div class="clear">
-				</div>
-				<a href="https://www.sivirtual.gov.co/memoficha-entidad/-/entidad/T0356"><img alt="Programa gobierno en línea" src="http://unal.edu.co/fileadmin/templates/images/67x51xlog_gobiern.png.pagespeed.ic.6o92hXupAH.png" width="67" height="51" title="Programa gobierno en línea"/></a>
-				<a href="http://www.contaduria.gov.co/"><img alt="Contaduría general de la republica" src="/templates/catedras_2/images/log_contra.png" width="67" height="51" title="Contaduría general de la republica"/></a>
+
+			<div class="btn-group">
+
+				<a href="http://bogota.unal.edu.co/ofertas-empleo/" target="_top">Ofertas de empleo</a>
+
 			</div>
+
+			<div class="btn-group">
+
+				<a href="http://rendiciondecuentas.unal.edu.co/" target="_top">Rendición de cuentas</a>
+
+			</div>
+
+			<div class="btn-group">
+
+				<a href="http://docentes.unal.edu.co/concurso-profesoral/" target="_top">Concurso docente</a>
+
+			</div>
+
+			<div class="btn-group">
+
+				<a href="http://www.pagovirtual.unal.edu.co/" target="_top">Pago Virtual</a>
+
+			</div>
+
+			<div class="btn-group">
+
+				<a href="http://www.unal.edu.co/control_interno/index.html" target="_top">Control interno</a>
+
+			</div>
+
+			<div class="btn-group">
+
+				<a href="http://planeacion.bogota.unal.edu.co/calidad.html" target="_top">Calidad</a>
+
+			</div>
+
+            <div class="btn-group">
+
+                <a href="http://bogota.unal.edu.co/notificaciones/" target="_self">Avisos, edictos y notificaciones Sede</a>
+
+            </div>
+
+            <div class="btn-group">
+
+                <a href="http://unal.edu.co/buzon-de-notificaciones/" target="_self">Buzón de notificaciones</a>
+
+            </div>
+
 		</div>
-	</footer>
-	<script src="/templates/catedras_2/js/unal.js" type="text/javascript"></script>
-	<script src="/templates/catedras_2/js/jquery_3_3.js" type="text/javascript"></script>
-	<script src="/templates/catedras_2/js/iziModal.min.js" type="text/javascript"></script>
+
+	</div>
+
+	<div class="col-md-3 col-lg-3 col-sm-3 col-xs-6 gobiernoLinea gobiernoLinea2">
+
+		<div class="navbar-">
+
+			<div class="btn-group">
+
+				<a href="http://correo.unal.edu.co" target="_top">Correo institucional</a>
+
+			</div>
+
+			<div class="btn-group">
+
+				<a href="http://unal.edu.co/mapa-del-sitio/" target="_self">Mapa del sitio</a>
+
+			</div>
+
+			<div class="btn-group">
+
+				<a href="http://redessociales.unal.edu.co" target="_top">Redes Sociales</a>
+
+			</div>
+
+			<div class="btn-group">
+
+				<a href="http://unal.edu.co/faq/" target="_self">FAQ</a>
+
+			</div>
+
+			<div class="btn-group">
+
+				<a href="http://quejasyreclamos.unal.edu.co/" target="_self">Quejas y reclamos</a>
+
+			</div>
+
+			<div class="btn-group">
+
+				<a href="http://unal.edu.co/atencion-en-linea/" target="_self">Atención en línea</a>
+
+			</div>
+
+			<div class="btn-group">
+
+				<a href="http://unal.edu.co/encuesta/" target="_self">Encuesta</a>
+
+			</div>
+
+			<div class="btn-group">
+
+				<a href="http://unal.edu.co/nc/contactenos/" target="_self">Contáctenos</a>
+
+			</div>
+
+			<div class="btn-group">
+
+				<a href="http://www.onp.unal.edu.co" target="_top">Estadísticas</a>
+
+			</div>
+
+			<div class="btn-group">
+
+				<a href="http://unal.edu.co/glosario/" target="_self">Glosario</a>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<div class="col-md-4 footer-info col-lg-4 col-sm-4 col-xs-12">
+
+		<div class="csc-frame csc-frame-indent">
+
+			<p class="bodytext">
+
+				<b>Contacto Sede Bogotá:<br/></b>Carrera 45 N° 26-85 - Edificio Uriel Gutiérrez - Of. 225<br/>Bogotá D.C.,&nbsp; Colombia<br/>(+57 1) 316 5000
+
+			</p>
+
+		</div>
+
+		<div class="csc-frame csc-frame-indent">
+
+			<p class="bodytext">
+
+				© Copyright 2018<br/>Algunos derechos reservados.<br/>
+
+				<a href="mailto:webmaster_bog@unal.edu.co" title="Comuníquese con el webmaster de la Universidad Nacional de Colombia" class="mail">webmaster_bog@unal.edu.co</a><br/>
+
+				<a href="http://unal.edu.co/acerca-de-este-sitio-web/" title="Acerca de la web de la Universidad Nacional de Colombia" target="_blank">Acerca de este sitio web</a>
+
+			</p>
+
+		</div>
+
+	</div>
+
+	<div class="col-md-2 col-lg-2 col-sm-2 col-xs-12 logos">
+
+		<a href="http://www.orgulloun.unal.edu.co"><img alt="Orgullo UN" src="/templates/catedras_2/images/log_orgullo.png" width="78" height="21" title="Orgullo UN"/></a>
+
+		<a href="http://agenciadenoticias.unal.edu.co" class="imgAgencia"><img alt="Agencia de Noticias" src="/templates/catedras_2/images/log_agenc.png" width="78" height="21" title="Agencia de Noticias"/></a>
+
+		<div class="clear">
+
+		</div>
+
+		<a href="https://www.sivirtual.gov.co/memoficha-entidad/-/entidad/T0356"><img alt="Programa gobierno en línea" src="http://unal.edu.co/fileadmin/templates/images/67x51xlog_gobiern.png.pagespeed.ic.6o92hXupAH.png" width="67" height="51" title="Programa gobierno en línea"/></a>
+
+		<a href="http://www.contaduria.gov.co/"><img alt="Contaduría general de la republica" src="/templates/catedras_2/images/log_contra.png" width="67" height="51" title="Contaduría general de la republica"/></a>
+
+	</div>
+
+</div>
+
+</footer>
+
+
+
+<script src="/templates/catedras_2/js/unal.js" type="text/javascript"></script>
+<script src="/templates/catedras_2/js/jquery_3_3.js" type="text/javascript"></script>
+<script src="/templates/catedras_2/js/iziModal.min.js" type="text/javascript"></script>
+
+
+
+
+
+
+
+
+
 </body>
+
 </html>
