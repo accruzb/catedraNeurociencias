@@ -154,11 +154,14 @@
 						</div>
 						<div class="container">
 							<div class="left-menu">
-								<div class="btn-wid" id="btn_informacion_general" onclick="mostrar_seccion('informacion_general')">
-									<p>Información general del curso</p>
+								<div class="btn-wid" id="btn_bienvenida" onclick="mostrar_seccion('bienvenida')">
+									<p>Bienvenida</p>
 								</div>
-								<div class="btn-wid" id="btn_objetivos" onclick="mostrar_seccion('objetivos')">
-									<p>Objetivos de aprendizaje</p>
+								<div class="btn-wid" id="btn_informacion_contacto" onclick="mostrar_seccion('informacion_contacto')">
+									<p>Información de contacto</p>
+								</div>
+								<div class="btn-wid" id="btn_informacion_general" onclick="mostrar_seccion('informacion_general')">
+									<p>Información general de la cátedra</p>
 								</div>
 								<div class="btn-wid" id="btn_programa" onclick="mostrar_seccion('programa')">
 									<p>Programa</p>
@@ -166,8 +169,11 @@
 								<div class="btn-wid" id="btn_sesiones" onclick="mostrar_seccion('sesiones')">
 									<p>Sesiones</p>
 								</div>
-								<div class="btn-wid" id="btn_equipo" onclick="mostrar_seccion('equipo')">
-									<p>Equipo organizador</p>
+								<div class="btn-wid" id="btn_trabajos_finales" onclick="mostrar_seccion('trabajos_finales')">
+									<p>Trabajos finales</p>
+								</div>
+								<div class="btn-wid" id="btn_memorias" onclick="mostrar_seccion('memorias')">
+									<p>Memorias</p>
 								</div>
 							</div> <!-- Fin left menú-->
 						</div> <!-- Fin container-->
@@ -192,90 +198,130 @@
 						<!-- inicio convocatorias -->
 						<center>
 							<div class="contenedor_diracad " id="">
-								<br>
+								<div class="div_menu" id="div_bienvenida" style="display:none">
+									<h2 class="titulos">2021-2S <br>Cátedra nacional - Neurociencias para todes</h2>
+									<img class="img-responsive img_poster" src="/templates/catedras_2/images/Ctedras2021-2S/posterNALneuro.png" />
+									<br>
+									<p><strong>Fecha de inicio: </strong>jueves 07 de octubre de 2021</p>
+									<p><strong>Horario: </strong>jueves de 5:00 pm a 8:00 pm</p>
+									<p><strong>Sede anfitriona y docente coordinadora: </strong><br> Bogotá - Zulma Janeth Dueñas</p>
+									<br>
+									<br>
+									<p><strong>Sedes participantes y docentescoordinadores: </strong><br>Palmira - Magda Piedad Valdés Restrepo<br>Orinoquia - Zulma Janeth Dueñas<br></p>
+									<br>
+									<p><strong>Código SIA: </strong>Asignatura de libre elección</p>
+									<p>Bogotá: 1000124-B</p>
+									<p>Orinoquia: 1000124-O</p>
+									<p>Palmira: 1000124-P</p>
+									<p><strong>Créditos: </strong> 3</p>
+									<p><span id="cloak4fbbed5e42b710466ce651eb359fb572">This email address is being protected from spambots. You need JavaScript enabled to view it.</span></p>
+									<script type='text/javascript'>
+										document.getElementById('cloak4fbbed5e42b710466ce651eb359fb572').innerHTML = '';
+										var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+										var path = 'hr' + 'ef' + '=';
+										var addy4fbbed5e42b710466ce651eb359fb572 = 'c&#97;t&#101;dr&#97;s_n&#97;l' + '&#64;';
+										addy4fbbed5e42b710466ce651eb359fb572 = addy4fbbed5e42b710466ce651eb359fb572 + '&#117;n&#97;l' + '&#46;' + '&#101;d&#117;' + '&#46;' + 'c&#111;';
+										var addy_text4fbbed5e42b710466ce651eb359fb572 = 'c&#97;t&#101;dr&#97;s_n&#97;l' + '&#64;' + '&#117;n&#97;l' + '&#46;' + '&#101;d&#117;' + '&#46;' + 'c&#111;';document.getElementById('cloak4fbbed5e42b710466ce651eb359fb572').innerHTML += '<a class="links-t1" ' + path + '\'' + prefix + ':' + addy4fbbed5e42b710466ce651eb359fb572 + '\'>'+addy_text4fbbed5e42b710466ce651eb359fb572+'<\/a>';
+									</script>
+								</div>
+								<div class="div_menu" id="div_informacion_contacto" style="display:none">
+									<h2>Equipo de la cátedra</h2>
+									<img src="/resources/imag/zulma.jpg">
+									<p>Zulma Dueñas</p>
+									<p>Profesora coordinadora de la Cátedra Nacional Neuro Ciencias para todes 2021-2S.</p>
+									<p>Licenciada en Ciencias de la Educación, Biología y Química de la Universidad Pedagógica y Tecnológica de Colombia, Magíster en Ciencias fisiológicas de la Universidad Nacional Autónoma de.México,UNAM, Doctora en Ciencias con énfasis en Neurobiología, en el Instituto de Neurobiología de la misma universidad, y con una estancia postdoctoral en la Universidad de California, otorgada por el programa PEW Latin American Fellows in Biomedical Sciences. Actualmente, es profesora titular de la Facultad de Medicina, Investigadora Senior reconocida por el Ministerio de Ciencia Tecnología e Innovación, y Presidenta del Colegio Colombiano de Neurociencias COLNE.</p>
+									<p>Correo electrónico: zjduenasg@unal.edu.co<b></p>
+									<img src="/resources/imag/Lucia Echeverry.jpg">
+									<p>Laura Lucia Echeverry Pinzón</p>
+									<p>Estudiane de noveno semestre de Terapia Ocupacional,</p>
+									<p>Durante su recorrido académico he participado en semilleros de investigación que transversalizan los temas de conflicto armado, paz, discapacidad y resistencia, junto con experiencias prácticas en entornos educativos, empresariales y hospitalarios que me han permitido trabajar con múltiples comunidades y personas, en pro de la salud y el buen vivir.</p>
+									<p>Laura Camila Castillo Hernández</p>
+									<p>Estudiante de 10 semestre del programa de Biología, sede Bogotá </p>
+									<p>Miembro del grupo de Genética de Poblaciones e Identificación Humana del Instituto de Genética de la Universidad Nacional de Colombia.</p>
+									<p>Paula Ximena Díaz Muñoz</p>
+									<p>Estudiante de décimo semestre del pregrado de biología</p>
+									<p>Integrante del grupo de investigación en Neurofisiología celular.</p>
+									<p>Daniel Felipe Useche Daza</p>
+									<p>Estudiante de sexto semestre de Derecho.</p>
+									<p>Participante en el Webinar del Grupo de Investigación en Seguridad "Las Relaciones Civico-Militares en América Latina" con la ponencia "El debate de la profesionalización militar en la actualidad de la Argentina democrática".</p>
+									<p>Angela Patricia Gómez Pinzón</p>
+									<p>Segundo Semestre de la Maestría en Fisiología.</p>   
+									<p>Es Nutricionista Dietista egresada de la Universidad Nacional, se desempeño como docente de cátedra en nutrición clínica pediátrica en la Pontificia Universidad Javeriana.</p>
+									<img src="/resources/imag/Andrea_Cruz.jpg">
+									<p>Andrea Catalina Cruz Botero<p>
+									<p>Decimo semestre del pregrado de Musica Instrumental</p>
+									<p>Ha participado en programas de voluntariado de música para población vulnerabe de la primera infancia, infancia y adolescencia</p>
+								</div>
 								<div class="div_menu" id="div_informacion_general" style="display:none">
-									<!-- 2021-I -->
-									<div class="div_documentos" id="2021-I" style="display:block">
-										<div class="row">
-											<div class="col-md-5">
-												<img class="img-responsive img_poster" src="/templates/catedras_2/images/Ctedras2021-2S/posterNALneuro.png" />
-											</div> <!-- Fin col-md-5-->
-											<div class="col-md-7">
-												<h2 class="titulos">2021-2S <br>Cátedra nacional - Neurociencias para todes</h2>
-												<br>
-												<p><strong>Fecha de inicio: </strong>jueves 07 de octubre de 2021</p>
-												<p><strong>Horario: </strong>jueves de 5:00 pm a 8:00 pm</p>
-												<p><strong>Sede anfitriona y docente coordinadora: </strong><br> Bogotá - Zulma Janeth Dueñas</p>
-												<br>
-												<br>
-												<p><strong>Sedes participantes y docentescoordinadores: </strong><br>Palmira - Magda Piedad Valdés Restrepo<br>Orinoquia - Zulma Janeth Dueñas<br></p>
-												<br>
-												<p><strong>Código SIA: </strong>Asignatura de libre elección</p>
-												<p>Bogotá: 1000124-B</p>
-												<p>Orinoquia: 1000124-O</p>
-												<p>Palmira: 1000124-P</p>
-												<p><strong>Créditos: </strong> 3</p>
-												<p><span id="cloak4fbbed5e42b710466ce651eb359fb572">This email address is being protected from spambots. You need JavaScript enabled to view it.</span></p>
-												<script type='text/javascript'>
-													document.getElementById('cloak4fbbed5e42b710466ce651eb359fb572').innerHTML = '';
-													var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
-													var path = 'hr' + 'ef' + '=';
-													var addy4fbbed5e42b710466ce651eb359fb572 = 'c&#97;t&#101;dr&#97;s_n&#97;l' + '&#64;';
-													addy4fbbed5e42b710466ce651eb359fb572 = addy4fbbed5e42b710466ce651eb359fb572 + '&#117;n&#97;l' + '&#46;' + '&#101;d&#117;' + '&#46;' + 'c&#111;';
-													var addy_text4fbbed5e42b710466ce651eb359fb572 = 'c&#97;t&#101;dr&#97;s_n&#97;l' + '&#64;' + '&#117;n&#97;l' + '&#46;' + '&#101;d&#117;' + '&#46;' + 'c&#111;';document.getElementById('cloak4fbbed5e42b710466ce651eb359fb572').innerHTML += '<a class="links-t1" ' + path + '\'' + prefix + ':' + addy4fbbed5e42b710466ce651eb359fb572 + '\'>'+addy_text4fbbed5e42b710466ce651eb359fb572+'<\/a>';
-												</script>
-												<!-- <p><strong> Oficina: </strong> Unidad Camilo Torres Bloque B2 - Oficina No. 24 <p> -->
-											</div> <!-- Fin col-md-7 -->
-										</div> <!-- Fin row-->
-										<div class="row parrafo">
-											<h3>Información general del curso</h3>
-											<p>
-											<!-- FALTA-->
-											<!-- FALTA-->
-											<!-- FALTA-->
-											</p>
-										</div>
-									</div> <!-- Fin 2021-I -->
-								</div> <!-- Fin informacion_general -->
-								<div class="div_menu" id="div_objetivos" style="display:none">
-									<div class="row parrafo">
-										<h2 class="titulos">2021-2S <br>Cátedra nacional - Neurociencia para todes<br></h2>
-										<h3>Objetivo del curso</h3>
-										<!-- FALTA-->
-										<!-- FALTA-->
-										<!-- FALTA-->
-										<h3>Objetivos de aprendizaje</h3>
-										<p>Al finalizar la Cátedra Nacional Neurociencias para todes, el estudiante estará en la capacidad de:</p><br>
-										<ul>
-											<li>
-												Relacionar los aportes hechos desde diferentes disciplinas y que han permitido comprender la relación entre cerebro y comportamiento.
-											</li>
-											<li>
-												Identificar que existen diferentes factores protectores y de riesgo: biológico, ambiental/epigenético, social, cultural, entre otros, que pueden 								 afectar la salud mental y física de las personas.
-											</li>
-											<li>
-												Distinguir las respuestas comportamentales y emocionales que se presentan en un estado de bienestar o malestar y la manera cómo a partir del 								    conocimiento neurofisiológico, se puede fortalecer la autorregulación.
-											</li>
-												Planear, diseñar y dirigir propuestas para mitigar el impacto de factores de riesgo que afectan la salud mental y física de las personas en su 									entorno cercano o comunidad.
-											<li>
-												Percatarse de la aplicación de los conceptos de las Neurociencias en las ctividades de la vida diaria.
-											</li>
-											<li>
-											</li>
-										</ul>
-										<h3>Metodología</h3>
-										<p>
-										<!-- FALTA-->
-										<!-- FALTA-->
-										<!-- FALTA-->
-										</p>
-									</div>
-								</div> <!-- Fin objetivos -->
+									<h2>Información general de la cátedra</h2>
+									<h3>Justificación del curso</h3>
+									<p>La neurociencia es un campo de conocimiento dedicado al estudio del sistema nervioso. Aproximarnos a conocer el funcionamiento del cerebro, la manera como incide en el comportamiento, los factores que pueden afectar la salud mental y la forma como se pueden mitigar o prevenir algunas neuropatologías, es crucial para comprender su complejidad. Así mismo, entender las bases neurobiológicas que desencadenan las respuestas emocionales aportará al bienestar individual y colectivo, que permitirá aunar esfuerzos en búsqueda de una mejor sociedad.</p>
+									<p>La cátedra “Neurociencia para todes”  no es un curso sobre fundamentos de Neurociencias, Neurobiología, Psiconeurobiología o similares, constituye un espacio de divulgación y diálogo académico fundamentado en conocimiento científico, basado en la evidencia en neurociencias, permitiendo identificar la importancia y el impacto que tiene la investigación en neurociencia para explicar los comportamientos, así como, reconocer los principios neurobiológicos que median las respuestas a las situaciones que se presentan en la cotidianidad.</p>
+									<p>Será impartida por profesores e investigadores vinculados a diferentes Grupos y Departamentos de la Universidad Nacional y de otras Universidades tanto Nacionales como internacionales, quienes tienen diferentes experiencias en investigación, docencia y divulgación científica, en distintas áreas de la Neurociencia.  Así mismo es importante señalar que los estudiantes tendrán acompañamiento y seguimiento continuo por parte de los monitores y coordinadores de la cátedra.</p>
+									<h3>Objetivos de aprendizaje</h3>
+									<ol>
+										<li>Identificar las principales bases neurocientíficas del funcionamiento del cerebro que pueden explicar el comportamiento, a partir de los aportes hechos por las diferentes disciplinas que hacen parte de la Neurociencia.</li>
+										<li>Reconocer la relación entre el funcionamiento cerebral, la salud física y mental, identificando los diferentes factores  implicados, tanto protectores como de riesgo: biológico, ambiental/epigenético, social, cultural, entre otros; desde la óptica de la diversidad disciplinar de la Neurociencia.</li>
+										<li>Identificar la explicación neurocientífica que subyace a las respuestas comportamentales y emocionales, frente a situaciones cotidianas, desde la mirada de diferentes disciplinas que hacen parte de la Neurociencia y que les permita comprender su actuar con el fin de entender y fortalecer la autorregulación.</li>
+										<li>Identificar posibilidades específicas que les permita mitigar el impacto en los factores de riesgo que afectan la salud mental y física de las personas de su entorno cercano o comunidad.</li>
+									</ol>
+								</div>
 								<div class="div_menu" id="div_programa" style="display:none">
-									<!--<object data="/resources/catedra_nacional/2021-1/negocios/programanegocios.pdf" type="application/pdf" style="width: 100%; height: 90vh;">
-										<embed src="/resources/catedra_nacional/2021-1/negocios/programanegocios.pdf" type="application/pdf" style="width: 100%; height: 100%;"/>
-									</object>-->
-								</div> <!-- Fin programa -->
+									<h2>Evaluación</h2>
+									<p>Durante el transcurso de la cátedra no solo se tendrá en cuenta su asistencia, sino que se dará un valor cuantitativo a su participación en cada una de las sesiones así como en las asesorías y la valoración de la infografía.</p>
+									<ol>
+										<li>Asistencia sesiones (10%)</li>
+										<li>Participación sesiones (15%)</li>
+										<li>Evaluación sesiones (10%)</li>
+										<li>Autoevaluación (10%)</li>
+										<li>Proyecto final, infografía (40%)</li>
+										<li>Participación asesorías infografía (15%)</li>
+									</ol>
+									<h2>Políticas de evaluación</h2>
+									<h3>Participación sesiones (15%)</h3>
+									<ul>
+										<li>Práctica virtual: con el objetivo de fomentar la participación y escuchar a todos los estudiantes de la cátedra, antes de iniciar la sesión, deberán formular preguntas, problemáticas o propuestas relacionadas con el tema de la cátedra (a través del campus virtual). Se tomará registro de los estudiantes que participan a través del chat, correos, pidiendo la palabra. En este sentido, los estudiantes al finalizar la cátedra habrán realizado 16 prácticas.</li>
+										<li>Conversatorio: se llevarán a cabo tres conversatorios en los que los actores debatirán los temas planteados durante el eje temático y los estudiantes dirigirán esta conversación y debate mediante la formulación de preguntas establecidas previamente. Se llevará registro de los estudiantes que participan formulando preguntas ya sea por el chat, correo electrónico o pidiendo la palabra.</li>
+									</ul> 
+									<h3>Evaluación sesiones (10%)</h3>
+									<ul>
+										<li>Prueba de Diagnóstico (5%): Una semana previa a cada sesión se realizará un cuestionario corto para identificar las bases conceptuales que se deberán aclarar o introducir en cada sesión. Para esto, se tendrá desde el inicio de la cátedra una carpeta en Drive con el material de apoyo académico (artículos, libros, videos, aplicaciones, etc.) para que los estudiantes antes de las sesiones revisen y fortalezcan sus conocimientos.</li>
+										<li>Prueba y crea conocimiento (5%): Al iniciar cada sesión se realizarán pruebas de conocimiento a partir de herramientas de gamificación que permitan a los estudiantes validar o consolidar su conocimiento respecto a los temas tratados en la sesión anterior o bien, se presentarán situaciones que inviten a la reflexión sobre la importancia de la aplicación de las neurociencias en la vida diaria.</li>
+									</ul>
+									<h3>Autoevaluación (10%)</h3>
+									<ul>
+										<li>Encuesta de calidad y Autoevaluación: Al finalizar cada eje temático, los estudiantes diligenciaron una encuesta de calidad y autoevaluación, con la cual haremos seguimiento al desempeño de los conferencistas, los temas, metodologías empleadas y también, al desarrollo de los objetivos de aprendizaje en cada estudiante. Serán en total 3 encuestas.</li>
+									</ul>
+									<h3>Proyecto final, infografía</h3>
+									<ul>
+										<li>Infografía (40%): Los estudiantes elegirán una situación que han visto provoca una reacción
+										bien sea individual, de pareja, familiar, social o colectiva, la relacionarán con una de las temáticas y realizarán una infografía en la cual no solo mostrarán qué respuestas se generan y cómo se desencadenan, sino que propondrán estrategias de cómo se podrían regular o promover acciones constructivas, en función de uno de los objetivos de aprendizaje. Se debe presentar en formato de infografía.</li>
+									<ul>
+									<p>Para el desarrollo de esta actividad:</p>
+									<ol>
+										<li>Los estudiantes inscritos serán divididos en grupos de máximo 7 individuos, que deberán trabajar en equipo para fomentar el trabajo colaborativo.</li>
+										<li>Los monitores de la cátedra tendrán a su cargo un número de equipos y se encargarán de orientarlos de acuerdo con las temáticas, problemáticas o situaciones planteadas.</li>
+										<li>Las infografías serán  evaluadas y co-evaluadas a partir de rúbricas establecidas, las que obtengan mayor calificación serán compartidas a través de la página de la Cátedra. Inicialmente se darán a conocer los parámetros a tener en cuenta para la elaboración de las infografías, así como ejemplos acordes al resultado esperado.</li>
+									</ol>
+									<h3>Participación asesorías infografía (15%)</h3>
+									<ul>
+										<li>Durante el semestre se realizarán 2 sesiones de asesorías virtuales para presentar y explicar las orientaciones del proyecto y hacer seguimiento al trabajo. Así mismo, se abrirán otros espacios de asesorías asincrónicas, si los grupos lo solicitan.</li>
+									</ul>
+									<h3>Asistencia sesiones (10%)</h3>
+									<ul>
+										<li>El control de asistencia se realizará mediante formulario Google y mediante registro cuando se utilicen herramientas didácticas y distintas aplicaciones, en las que se probará el conocimiento de los estudiantes de forma didáctica, amable, divertida y retadora.</li>
+									</ul>
+									<h2>Metodología</h2>
+									<h3>La cátedra  se dividirá en 3 ejes temáticos que son los siguientes</h3>
+									<ol>
+										<li>Conociendo el cerebro</li>
+										<li>Cerebro, emociones y bienestar</li>
+										<li>Neurociencia en acción: Nuevas perspectivas</li>
+									</ol> 
+									<p>Las temáticas de cada uno de los ejes se desarrollarán bajo la metodología de diálogo de saberes, que tendrá como objetivo fomentar la comprensión de los conceptos de las neurociencias, compartir los aportes que las diferentes disciplinas han realizado y que han permitido conocer y comprender la relación entre el cerebro, el comportamiento humano y los estados de bienestar y enfermedad. Así mismo, estos objetivos invitarán a los estudiantes a reflexionar e identificar la aplicación que tienen las neurociencias en las diferentes situaciones de la vida y a diseñar o facilitar propuestas dirigidas al bienestar de las personas.</p>
+									<p>Al inicio del curso todos los estudiantes tendrán acceso a una carpeta en el Drive, donde tendrán acceso a bibliografía, videos y sitios de interés relacionados con cada sesión, que les permitirá realizar una revisión previa de la temática. Además, una semana antes de cada sesión, los estudiantes responderán un corto cuestionario de diagnóstico que servirá para identificar si hicieron una revisión asincrónica de los contenidos y será la base para que en un primer momento se realice una corta charla magistral aclaratoria de conceptos o introductoria a la temática y que será impartida por los profesores invitados. Serán 2 docentes/investigadores por sesión, vinculados a diferentes Grupos y Departamentos de la Universidad Nacional y de otras Universidades Nacionales e Internacionales. Los investigadores invitados tienen experiencia en actividades de investigación, docencia y divulgación, en distintas áreas de las Neurociencias y compartirán sus saberes desde un punto de vista conceptual y aplicado. En un segundo momento, se abrirá un espacio de conversación y discusión entre conferencistas y estudiantes, promovido por los moderadores y que se desarrollará a partir de las inquietudes que manifiesten de viva voz o por el chat, los estudiantes.</p>
+									<p>Para finalizar cada eje temático, se desarrollará un conversatorio entre profesores invitados de  distintas disciplinas y estudiantes inscritos a la cátedra, que cursen diferentes programas académicos, quienes se postularán con antelación y plantearán una situación social actual que consideren desencadena distintas respuestas, a fin de identificar de manera no tan compleja, cuáles son esas bases neurobiológicas que las desencadenan y plantear desde las neurociencias propuestas constructivas de autorregulación emocional.</p>
+								</div>
 								<div class="div_menu" id="div_sesiones" style="display:none">
 									<h2 class="titulos">2021-2S <br> Cátedra nacional - Neurociencia para todes</h2>
 									<!--
@@ -380,9 +426,12 @@
 									<iframe width="560" height="315" src="https://www.youtube.com/embed/mZDH_dckGM4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 									<br><br><br>   -->
 								</div> <!-- Fin sesiones -->
-								<div class="div_menu" id="div_equipo" style="display:none">
-									<!--<img src="/resources/catedra_nacional/2021-1/negocios/equipoorganizador.png" style="width: 500px; height: 600px;">-->
-								</div> <!-- Fin equipo -->
+								<div class="div_menu" id="div_trabajos_finales" style="display:none">
+									Aquí se mostrarían los trabajos finales, ¡si los hubiera!
+								</div>
+								<div class="div_menu" id="div_memorias" style="display:none">
+									Aquí se mostrarían las memorias, ¡si las hubiera!
+								</div>
 								<br> <br> <br>
 							</div> <!-- Fin documentos_ei -->
 							<br><br><br>
@@ -395,7 +444,6 @@
 			</div>
 		</div>
 	</div>
-	<!-- Fin contenido de las páginas-->
 	<footer>
 	<div class="row">
 		<div class="col-md-3 col-lg-3 col-sm-3 col-xs-6 gobiernoLinea">
