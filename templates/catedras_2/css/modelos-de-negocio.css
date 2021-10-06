@@ -1,0 +1,153 @@
+/* Botones del menú */
+
+
+.btn-wid {
+
+
+    background-color: #539734;
+
+
+}
+
+
+.btn-wid:hover {
+
+
+    background-color: #3fca00;
+
+
+}
+
+
+.btn-wid-presionado {
+
+
+    background-color: #3fca00;
+
+
+}
+
+
+/* Fin Botones del menú */
+
+
+
+
+
+.carta {
+
+
+    border: 1px dotted rgba(0, 0, 0, 0.5);
+
+
+    background-color: rgba(0, 0, 0, 0.1);
+
+
+    padding: 1em 2em;
+
+
+    margin-bottom: 2em;
+
+
+    cursor: pointer;
+
+
+    margin-left: 7%;
+
+
+    margin-right: 7%;
+
+
+}
+
+
+
+
+
+body {
+
+    background-size: 100% auto;
+
+
+    /*background-repeat: no-repeat; 
+
+ 
+background-position: center; 
+
+ 
+background-attachment: fixed; 
+
+ 
+  
+
+ 
+background-color: #666;*/
+
+
+}
+
+
+
+
+
+div.contenedor_diracad {
+
+
+    padding-right: 0 !important;
+
+
+    border-radius: 7px;
+
+
+}
+
+
+
+
+
+#documentos_ei {
+
+
+    padding-left: 5%;
+
+
+    padding-right: 5%;
+
+
+}
+
+
+.btn-ei {
+
+
+    font-size: 16pt;
+
+
+    transition: 1s;
+
+
+    width: 80%;
+
+
+}
+
+
+.btn-ei:hover {
+
+
+    transform: scale(1.1);
+
+
+    transition: 1s;
+
+
+}
+
+
+.img_poster {
+
+
+    margin-left: 5%;
+
+
+}
