@@ -225,33 +225,65 @@
 									</script>
 								</div>
 								<div class="div_menu" id="div_informacion_contacto" style="display:none">
+									<p>Para información general de la cátedra, puede escribir al correo</p> alt="poster" height="100" width="100" align=left> 
+									<p><b>Correo electrónico:</b>catedra2_nal@unal.edu.co</p>
 									<h2>Equipo de la cátedra</h2>
+									<h3>Zulma Dueñas</h3>
 									<img src="/resources/imag/zulma.jpg">
-									<p>Zulma Dueñas</p>
-									<p>Profesora coordinadora de la Cátedra Nacional Neuro Ciencias para todes 2021-2S.</p>
+									<p>Profesora coordinadora de la Cátedra Nacional Neuro Ciencias para todxs 2021-2S.</p>
 									<p>Licenciada en Ciencias de la Educación, Biología y Química de la Universidad Pedagógica y Tecnológica de Colombia, Magíster en Ciencias fisiológicas de la Universidad Nacional Autónoma de.México,UNAM, Doctora en Ciencias con énfasis en Neurobiología, en el Instituto de Neurobiología de la misma universidad, y con una estancia postdoctoral en la Universidad de California, otorgada por el programa PEW Latin American Fellows in Biomedical Sciences. Actualmente, es profesora titular de la Facultad de Medicina, Investigadora Senior reconocida por el Ministerio de Ciencia Tecnología e Innovación, y Presidenta del Colegio Colombiano de Neurociencias COLNE.</p>
-									<p>Correo electrónico: zjduenasg@unal.edu.co<b></p>
-									<img src="/resources/imag/Lucia Echeverry.jpg">
-									<p>Laura Lucia Echeverry Pinzón</p>
-									<p>Estudiane de noveno semestre de Terapia Ocupacional,</p>
-									<p>Durante su recorrido académico he participado en semilleros de investigación que transversalizan los temas de conflicto armado, paz, discapacidad y resistencia, junto con experiencias prácticas en entornos educativos, empresariales y hospitalarios que me han permitido trabajar con múltiples comunidades y personas, en pro de la salud y el buen vivir.</p>
-									<img src="/resources/imag/Laura.jpg">
-									<p>Laura Camila Castillo Hernández</p>
-									<p>Estudiante de 10 semestre del programa de Biología, sede Bogotá </p>
-									<p>Miembro del grupo de Genética de Poblaciones e Identificación Humana del Instituto de Genética de la Universidad Nacional de Colombia.</p>
-									<p>Paula Ximena Díaz Muñoz</p>
-									<p>Estudiante de décimo semestre del pregrado de biología</p>
-									<p>Integrante del grupo de investigación en Neurofisiología celular.</p>
-									<p>Daniel Felipe Useche Daza</p>
-									<p>Estudiante de sexto semestre de Derecho.</p>
-									<p>Participante en el Webinar del Grupo de Investigación en Seguridad "Las Relaciones Civico-Militares en América Latina" con la ponencia "El debate de la profesionalización militar en la actualidad de la Argentina democrática".</p>
-									<p>Angela Patricia Gómez Pinzón</p>
+									<p><b>Correo electrónico:</b>zjduenasg@unal.edu.co</p>
+									<h3>Magda Piedad Valdés Restrepo</h3>
+									<img src="/resources/imag/Magda.jpg">
+									<p>Profesora coordinadora de la Cátedra Nacional Neurociencia para todxs 2021-2S - Sede Palmira</p>
+									<p>Titularidad</p>
+									<p>Tecnologa en Alimentos</p>
+									<p>Ingeniera Agrónoma</p>
+									<p>Ingeniería Agroindustrial</p>
+									<p>Magíster y doctora en fitomejoramiento</p>
+									<p><b>Correo electrónico:</b>mpvaldesr@unal.edu.co</p>
+									<h3>Angela Patricia Gómez Pinzón</h3>
+									<img src="/resources/imag/Angela.jpeg">
+									<p>Estudiante coordinadora de la cátedra Neurociencia para todxs 2021-2s</p>
 									<p>Segundo Semestre de la Maestría en Fisiología.</p>
 									<p>Es Nutricionista Dietista egresada de la Universidad Nacional, se desempeño como docente de cátedra en nutrición clínica pediátrica en la Pontificia Universidad Javeriana.</p>
+									<p><b>Correo electrónico:</b>apgomezp@unal.edu.co</p>
+									<h3>Andrea Catalina Cruz Botero</h3>
 									<img src="/resources/imag/Andrea_Cruz.jpg">
-									<p>Andrea Catalina Cruz Botero<p>
+									<p>Estudiante informatica de la cátedra Neurociencia para todxs 2021-2s</p>
 									<p>Decimo semestre del pregrado de Musica Instrumental</p>
 									<p>Ha participado en programas de voluntariado de música para población vulnerabe de la primera infancia, infancia y adolescencia</p>
+									<p><b>Correo electrónico:</b>accruzb@unal.edu.co</p>
+									<h3>Laura Lucia Echeverry Pinzón</h3>
+									<img src="/resources/imag/Lucia Echeverry.jpg">
+									<p>Monitora de la cátedra Neurociencia para todxs 2021-2s</p>
+									<p>Estudiante de noveno semestre de Terapia Ocupacional,</p>
+									<p>Durante su recorrido académico he participado en semilleros de investigación que transversalizan los temas de conflicto armado, paz, discapacidad y resistencia, junto con experiencias prácticas en entornos educativos, empresariales y hospitalarios que me han permitido trabajar con múltiples comunidades y personas, en pro de la salud y el buen vivir.</p>
+									<p><b>Correo electrónico:</b>llecheverryp@unal.edu.co</p>
+									<h3>Laura Camila Castillo Hernández</h3>
+									<img src="/resources/imag/Laura.jpg">
+									<p>Monitora de la cátedra Neurociencia para todxs 2021-2s</p>
+									<p>Estudiante de 10 semestre del programa de Biología, sede Bogotá </p>
+									<p>Miembro del grupo de Genética de Poblaciones e Identificación Humana del Instituto de Genética de la Universidad Nacional de Colombia.</p>
+									<p><b>Correo electrónico:</b>lccastilloh@unal.edu.co</p>
+									<h3>Paula Ximena Díaz Muñoz</h3>
+									<img src="/resources/imag/Paula Diaz.jpg">
+									<p>Monitora de la cátedra Neurociencia para todxs 2021-2s</p>
+									<p>Estudiante de décimo semestre del pregrado de biología</p>
+									<p>Integrante del grupo de investigación en Neurofisiología celular.</p>
+									<p><b>Correo electrónico:</b>pxdiazm@unal.edu.co</p>
+									<h3>Daniel Felipe Useche Daza</h3>
+									<img src="/resources/imag/Daniel.jpg">
+									<p>Monitor de la cátedra Neurociencia para todxs 2021-2s</p>
+									<p>Estudiante de sexto semestre de Derecho.</p>
+									<p>Participante en el Webinar del Grupo de Investigación en Seguridad "Las Relaciones Civico-Militares en América Latina" con la ponencia "El debate de la profesionalización militar en la actualidad de la Argentina democrática".</p>
+									<p><b>Correo electrónico:</b>duseched@unal.edu.co</p>
+									<h3>María del Mar Hernández Jaimes</h3>
+									<img src="/resources/imag/maria del mar.png">
+									<p>Monitora de la cátedra Neurociencia para todxs 2021-2s</p>
+									<p>Estudiante séptimo semestre de pregrado Zootecnia UNAL Sede Palmira</p>
+									<p>Ha sido estudiante auxiliar y tutora en la asignatura de Biología general, además de apoyar en Lectoescritura en 2019 y parte del año  2020 </p>
+									<p><b>Correo electrónico:</b>mhernandezja@unal.edu.co</p>
 								</div>
 								<div class="div_menu" id="div_informacion_general" style="display:none">
 									<h2>Información general de la cátedra</h2>
